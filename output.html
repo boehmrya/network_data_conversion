@@ -25,9 +25,7 @@
     // after processing next week's data, pretty print
     var data_states = {};
     $.getJSON('weekly_merged_data.json', function(data) {
-      $.each( data, function( key, val ) {
-        data_states[key] = val;
-      });
+      console.log(data);
      });
 
      document.getElementById('next-week').innerHtml = data_states;
