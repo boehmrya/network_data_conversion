@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="author" content="">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <script src="past_week.js"></script>
+</head>
+
+<body>
+  <pre id="last-week"></pre>
+
+  <pre id="next-week"></pre>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script>
+    // Get last week data object, convert to json, pretty print
+    var json_string = JSON.stringify(data_states_metrics);
+    document.getElementById('last-week').innerHtml = data_states_metrics;
+
+    // after processing next week's data, pretty print
+    var data_states = {};
+    $.getJSON('weekly_merged_data.json', function(data) {
+      $.each( data, function( key, val ) {
+        data_states[key] = val;
+      });
+     });
+
+     document.getElementById('next-week').innerHtml = data_states;
+  </script>
+</body>
+
+</html>
