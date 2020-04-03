@@ -12,23 +12,24 @@
 </head>
 
 <body>
-  <pre id="last-week"></pre>
-
-  <pre id="next-week"></pre>
+  <div id="last-week"></div>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
   <script>
-    // Get last week data object, convert to json, pretty print
+    // Get last week data object, convert to json, output at /output.html
+    // run python simple http server using: python -m SimpleHTTPServer 8000
     var json_string = JSON.stringify(data_states_metrics);
-    document.getElementById('last-week').innerHtml = data_states_metrics;
+    document.getElementById('last-week').innerHTML = json_string;
 
     // after processing next week's data, pretty print
-    var data_states = {};
+    // get in console:
+    // 1) Right click, store as global variable
+    // 2) Write copy(temp1) to copy object to clipboard
+    // 3) Paste object into next_week.js, assign to variable data_states_metrics
     $.getJSON('weekly_merged_data.json', function(data) {
       console.log(data);
      });
 
-     document.getElementById('next-week').innerHtml = data_states;
   </script>
 </body>
 
