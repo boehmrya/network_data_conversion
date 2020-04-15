@@ -1,1528 +1,1621 @@
 var data_states_metrics = {
-  US: {
-    id: 'US',
-    name: 'National',
-    downstream_growth: {
-      overall: 20.1,
-      past_week: 4.3
+  "US": {
+    "downstream_growth": {
+      "overall": 18.9,
+      "past_week": -1.1
     },
-    upstream_growth: {
-      overall: 27.7,
-      past_week: 7.3
+    "upstream_growth": {
+      "overall": 33,
+      "past_week": 4.1
     },
-    network_performance: {
-      normal: 95.9,
-      elevated: 3.7,
-      substantially_elevated: 0.3,
-      severely_elevated: 0.1
+    "network_performance": {
+      "normal": 95.8,
+      "elevated": 3.9,
+      "substantially_elevated": 0.3,
+      "severely_elevated": 0
     },
-    providers: {
-      2560: {
-        name: 'Charter',
-        link: 'https://policy.charter.com/press-releases/charter-offer-free-access-spectrum-broadband-wifi-60-days-new-k-12-college-student-households/'
+    "id": "US",
+    "name": "National",
+    "providers": {
+      "2558": {
+        "name": "Comcast",
+        "link": "https://corporate.comcast.com/covid-19/network"
       },
-      2558: {
-        name: 'Comcast',
-        link: 'https://corporate.comcast.com/covid-19/network'
+      "2559": {
+        "name": "Cox",
+        "link": "https://www.cox.com/residential/support/coronavirus-response.html?campcode=tnt-home-alert"
       },
-      2559: {
-        name: 'Cox',
-        link: 'https://www.cox.com/residential/support/coronavirus-response.html?campcode=tnt-home-alert'
+      "2560": {
+        "name": "Charter",
+        "link": "https://corporate.charter.com/covid-19-response"
       },
-      2568: {
-        name: 'Midco',
-        link: 'https://www.midco.com/covid-19-response/'
+      "2567": {
+        "name": "Mediacom",
+        "link": "https://mediacomcable.com/about/news/corona-company-initiatives/"
       },
-      2619: {
-       name: 'GCI',
-       link: 'https://www.gci.com/COVID-19'
-     },
-      3604: {
-        name: 'Vyve',
-        link: 'https://www.vyvebroadband.com/covid-19-updates/'
+      "2568": {
+        "name": "Midco",
+        "link": "https://www.midco.com/covid-19-response/"
+      },
+      "2619": {
+        "name": "GCI",
+        "link": "https://www.gci.com/COVID-19"
+      },
+      "3604": {
+        "name": "Vyve",
+        "link": "https://www.vyvebroadband.com/covid-19-updates/"
+      },
+      "2620": {
+        "name": "Sjoberg's",
+        "link": "http://trf.mncable.net/"
       }
     }
   },
-  AL: {
-    id: 'AL',
-    name: 'Alabama',
-    downstream_growth: {
-      overall: 13.1,
-      past_week: 1.8
+  "AL": {
+    "downstream_growth": {
+      "overall": 14.6,
+      "past_week": 1
     },
-    upstream_growth: {
-      overall: 12.4,
-      past_week: 1.9
+    "upstream_growth": {
+      "overall": 20.5,
+      "past_week": 6.1
     },
-    network_performance: {
-      normal: 97.7,
-      elevated: 2.0,
-      substantially_elevated: 0.3,
-      severely_elevated: 0.0
+    "network_performance": {
+      "normal": 98.2,
+      "elevated": 1.6,
+      "substantially_elevated": 0.2,
+      "severely_elevated": 0
     },
-    providers: {
-       2560: {
-        name: 'Charter',
-        link: 'https://policy.charter.com/press-releases/charter-offer-free-access-spectrum-broadband-wifi-60-days-new-k-12-college-student-households/'
+    "id": "AL",
+    "name": "Alabama",
+    "providers": {
+      "2558": {
+        "name": "Comcast",
+        "link": "https://corporate.comcast.com/covid-19/network"
       },
-      2558: {
-        name: 'Comcast',
-        link: 'https://corporate.comcast.com/covid-19/network'
+      "2560": {
+        "name": "Charter",
+        "link": "https://corporate.charter.com/covid-19-response"
+      },
+      "2567": {
+        "name": "Mediacom",
+        "link": "https://mediacomcable.com/about/news/corona-company-initiatives/"
       }
     }
   },
-  AK: {
-    id: 'AK',
-    name: 'Alaska',
-    downstream_growth: {
-      overall: 20.1,
-      past_week: 6.4
+  "AK": {
+    "downstream_growth": {
+      "overall": 22.5,
+      "past_week": 2
     },
-    upstream_growth: {
-      overall: 24.7,
-      past_week: 1.3
+    "upstream_growth": {
+      "overall": 29.1,
+      "past_week": 2
     },
-    network_performance: {
-      normal: 99.7,
-      elevated: 0.3,
-      substantially_elevated: 0.0,
-      severely_elevated: 0.0
+    "network_performance": {
+      "normal": 99.7,
+      "elevated": 0.2,
+      "substantially_elevated": 0,
+      "severely_elevated": 0
     },
-    providers: {
-       2619: {
-        name: 'GCI',
-        link: 'https://www.gci.com/COVID-19'
+    "id": "AK",
+    "name": "Alaska",
+    "providers": {
+      "2619": {
+        "name": "GCI",
+        "link": "https://www.gci.com/COVID-19"
       }
     }
   },
-  AZ: {
-    id: 'AZ',
-    name: 'Arizona',
-    downstream_growth: {
-      overall: 16.6,
-      past_week: 2.9
+  "AZ": {
+    "downstream_growth": {
+      "overall": 13.6,
+      "past_week": -2.6
     },
-    upstream_growth: {
-      overall: 29.5,
-      past_week: 11.1
+    "upstream_growth": {
+      "overall": 37.3,
+      "past_week": 6.2
     },
-    network_performance: {
-      normal: 95.9,
-      elevated: 3.7,
-      substantially_elevated: 0.3,
-      severely_elevated: 0.1
+    "network_performance": {
+      "normal": 95.5,
+      "elevated": 4.1,
+      "substantially_elevated": 0.4,
+      "severely_elevated": 0.1
     },
-    providers: {
-      2560: {
-        name: 'Charter',
-        link: 'https://policy.charter.com/press-releases/charter-offer-free-access-spectrum-broadband-wifi-60-days-new-k-12-college-student-households/'
+    "id": "AZ",
+    "name": "Arizona",
+    "providers": {
+      "2558": {
+        "name": "Comcast",
+        "link": "https://corporate.comcast.com/covid-19/network"
       },
-      2558: {
-        name: 'Comcast',
-        link: 'https://corporate.comcast.com/covid-19/network'
+      "2559": {
+        "name": "Cox",
+        "link": "https://www.cox.com/residential/support/coronavirus-response.html?campcode=tnt-home-alert"
       },
-      2559: {
-        name: 'Cox',
-        link: 'https://www.cox.com/residential/support/coronavirus-response.html?campcode=tnt-home-alert'
+      "2560": {
+        "name": "Charter",
+        "link": "https://corporate.charter.com/covid-19-response"
+      },
+      "2567": {
+        "name": "Mediacom",
+        "link": "https://mediacomcable.com/about/news/corona-company-initiatives/"
       }
     }
   },
-  AR: {
-    id: 'AR',
-    name: 'Arkansas',
-    downstream_growth: {
-      overall: 15.8,
-      past_week: 1.8
+  "AR": {
+    "downstream_growth": {
+      "overall": 16,
+      "past_week": 0.3
     },
-    upstream_growth: {
-      overall: 14.8,
-      past_week: -2.8
+    "upstream_growth": {
+      "overall": 25.8,
+      "past_week": 9.6
     },
-    network_performance: {
-      normal: 99.4,
-      elevated: 0.6,
-      substantially_elevated: 0.0,
-      severely_elevated: 0.0
+    "network_performance": {
+      "normal": 98.6,
+      "elevated": 1.3,
+      "substantially_elevated": 0.1,
+      "severely_elevated": 0
     },
-    providers: {
-      2558: {
-        name: 'Comcast',
-        link: 'https://corporate.comcast.com/covid-19/network'
+    "id": "AR",
+    "name": "Arkansas",
+    "providers": {
+      "2558": {
+        "name": "Comcast",
+        "link": "https://corporate.comcast.com/covid-19/network"
       },
-      2559: {
-        name: 'Cox',
-        link: 'https://www.cox.com/residential/support/coronavirus-response.html?campcode=tnt-home-alert'
+      "2559": {
+        "name": "Cox",
+        "link": "https://www.cox.com/residential/support/coronavirus-response.html?campcode=tnt-home-alert"
       },
-      3604: {
-        name: 'Vyve',
-        link: 'https://www.vyvebroadband.com/covid-19-updates/'
+      "3604": {
+        "name": "Vyve",
+        "link": "https://www.vyvebroadband.com/covid-19-updates/"
       }
     }
   },
-  CA: {
-    id: 'CA',
-    name: 'California',
-    downstream_growth: {
-      overall: 24.6,
-      past_week: 1.8
+  "CA": {
+    "downstream_growth": {
+      "overall": 21.6,
+      "past_week": -2.4
     },
-    upstream_growth: {
-      overall: 35.6,
-      past_week: 5.4
+    "upstream_growth": {
+      "overall": 37.2,
+      "past_week": 1.2
     },
-    network_performance: {
-      normal: 88.6,
-      elevated: 10.6,
-      substantially_elevated: 0.6,
-      severely_elevated: 0.2
+    "network_performance": {
+      "normal": 89.1,
+      "elevated": 10.3,
+      "substantially_elevated": 0.5,
+      "severely_elevated": 0.1
     },
-    providers: {
-      2560: {
-        name: 'Charter',
-        link: 'https://policy.charter.com/press-releases/charter-offer-free-access-spectrum-broadband-wifi-60-days-new-k-12-college-student-households/'
+    "id": "CA",
+    "name": "California",
+    "providers": {
+      "2558": {
+        "name": "Comcast",
+        "link": "https://corporate.comcast.com/covid-19/network"
       },
-      2558: {
-        name: 'Comcast',
-        link: 'https://corporate.comcast.com/covid-19/network'
+      "2559": {
+        "name": "Cox",
+        "link": "https://www.cox.com/residential/support/coronavirus-response.html?campcode=tnt-home-alert"
       },
-      2559: {
-        name: 'Cox',
-        link: 'https://www.cox.com/residential/support/coronavirus-response.html?campcode=tnt-home-alert'
+      "2560": {
+        "name": "Charter",
+        "link": "https://corporate.charter.com/covid-19-response"
+      },
+      "2567": {
+        "name": "Mediacom",
+        "link": "https://mediacomcable.com/about/news/corona-company-initiatives/"
       }
     }
   },
-  CO: {
-    id: 'CO',
-    name: 'Colorado',
-    downstream_growth: {
-      overall: 16.0,
-      past_week: 3.5
+  "CO": {
+    "downstream_growth": {
+      "overall": 13.9,
+      "past_week": -1.8
     },
-    upstream_growth: {
-      overall: 31.3,
-      past_week: 6.8
+    "upstream_growth": {
+      "overall": 37.1,
+      "past_week": 4.5
     },
-    network_performance: {
-      normal: 92.7,
-      elevated: 7.1,
-      substantially_elevated: 0.2,
-      severely_elevated: 0.0
+    "network_performance": {
+      "normal": 91.2,
+      "elevated": 8.6,
+      "substantially_elevated": 0.2,
+      "severely_elevated": 0
     },
-    providers: {
-       2560: {
-        name: 'Charter',
-        link: 'https://policy.charter.com/press-releases/charter-offer-free-access-spectrum-broadband-wifi-60-days-new-k-12-college-student-households/'
+    "id": "CO",
+    "name": "Colorado",
+    "providers": {
+      "2558": {
+        "name": "Comcast",
+        "link": "https://corporate.comcast.com/covid-19/network"
       },
-      2558: {
-        name: 'Comcast',
-        link: 'https://corporate.comcast.com/covid-19/network'
+      "2560": {
+        "name": "Charter",
+        "link": "https://corporate.charter.com/covid-19-response"
       },
-      3604: {
-        name: 'Vyve',
-        link: 'https://www.vyvebroadband.com/covid-19-updates/'
+      "3604": {
+        "name": "Vyve",
+        "link": "https://www.vyvebroadband.com/covid-19-updates/"
       }
     }
   },
-  CT: {
-    id: 'CT',
-    name: 'Connecticut',
-    downstream_growth: {
-      overall: 28.7,
-      past_week: 4.3
+  "CT": {
+    "downstream_growth": {
+      "overall": 28.7,
+      "past_week": 0
     },
-    upstream_growth: {
-      overall: 38.6,
-      past_week: 11.7
+    "upstream_growth": {
+      "overall": 40.5,
+      "past_week": 1.6
     },
-    network_performance: {
-      normal: 96.8,
-      elevated: 3.0,
-      substantially_elevated: 0.2,
-      severely_elevated: 0.0
+    "network_performance": {
+      "normal": 96.1,
+      "elevated": 3.6,
+      "substantially_elevated": 0.3,
+      "severely_elevated": 0
     },
-    providers: {
-      2560: {
-        name: 'Charter',
-        link: 'https://policy.charter.com/press-releases/charter-offer-free-access-spectrum-broadband-wifi-60-days-new-k-12-college-student-households/'
+    "id": "CT",
+    "name": "Connecticut",
+    "providers": {
+      "2558": {
+        "name": "Comcast",
+        "link": "https://corporate.comcast.com/covid-19/network"
       },
-      2558: {
-        name: 'Comcast',
-        link: 'https://corporate.comcast.com/covid-19/network'
+      "2559": {
+        "name": "Cox",
+        "link": "https://www.cox.com/residential/support/coronavirus-response.html?campcode=tnt-home-alert"
       },
-      2559: {
-        name: 'Cox',
-        link: 'https://www.cox.com/residential/support/coronavirus-response.html?campcode=tnt-home-alert'
+      "2560": {
+        "name": "Charter",
+        "link": "https://corporate.charter.com/covid-19-response"
       }
     }
   },
-  DE: {
-    id: 'DE',
-    name: 'Delaware',
-    downstream_growth: {
-      overall: 17.6,
-      past_week: 6.3
+  "DE": {
+    "downstream_growth": {
+      "overall": 18,
+      "past_week": -2
     },
-    upstream_growth: {
-      overall: 27.4,
-      past_week: 9.0
+    "upstream_growth": {
+      "overall": 33.4,
+      "past_week": 3.4
     },
-    network_performance: {
-      normal: 96.8,
-      elevated: 2.5,
-      substantially_elevated: 0.7,
-      severely_elevated: 0.0
+    "network_performance": {
+      "normal": 96.6,
+      "elevated": 2.6,
+      "substantially_elevated": 0.8,
+      "severely_elevated": 0
     },
-    providers: {
-       2558: {
-        name: 'Comcast',
-        link: 'https://corporate.comcast.com/covid-19/network'
+    "id": "DE",
+    "name": "Delaware",
+    "providers": {
+      "2558": {
+        "name": "Comcast",
+        "link": "https://corporate.comcast.com/covid-19/network"
+      },
+      "2567": {
+        "name": "Mediacom",
+        "link": "https://mediacomcable.com/about/news/corona-company-initiatives/"
       }
     }
   },
-  DC: {
-    id: 'DC',
-    name: 'District Of Columbia',
-    downstream_growth: {
-      overall: 14.7,
-      past_week: 4.0
+  "DC": {
+    "downstream_growth": {
+      "overall": 11.4,
+      "past_week": -2.9
     },
-    upstream_growth: {
-      overall: 31.4,
-      past_week: 5.1
+    "upstream_growth": {
+      "overall": 35.8,
+      "past_week": 3.3
     },
-    network_performance: {
-      normal: 96.0,
-      elevated: 4.0,
-      substantially_elevated: 0.0,
-      severely_elevated: 0.0
+    "network_performance": {
+      "normal": 96.1,
+      "elevated": 3.9,
+      "substantially_elevated": 0,
+      "severely_elevated": 0
     },
-    providers: {
-       2558: {
-        name: 'Comcast',
-        link: 'https://corporate.comcast.com/covid-19/network'
+    "id": "DC",
+    "name": "District Of Columbia",
+    "providers": {
+      "2558": {
+        "name": "Comcast",
+        "link": "https://corporate.comcast.com/covid-19/network"
       }
     }
   },
-  FL: {
-    id: 'FL',
-    name: 'Florida',
-    downstream_growth: {
-      overall: 17.1,
-      past_week: 3.8
+  "FL": {
+    "downstream_growth": {
+      "overall": 18,
+      "past_week": 0.7
     },
-    upstream_growth: {
-      overall: 20.7,
-      past_week: 6.2
+    "upstream_growth": {
+      "overall": 25.4,
+      "past_week": 3.8
     },
-    network_performance: {
-      normal: 97.2,
-      elevated: 2.4,
-      substantially_elevated: 0.3,
-      severely_elevated: 0.0
+    "network_performance": {
+      "normal": 96.6,
+      "elevated": 3,
+      "substantially_elevated": 0.4,
+      "severely_elevated": 0
     },
-    providers: {
-       2560: {
-        name: 'Charter',
-        link: 'https://policy.charter.com/press-releases/charter-offer-free-access-spectrum-broadband-wifi-60-days-new-k-12-college-student-households/'
-      },  2558: {
-        name: 'Comcast',
-        link: 'https://corporate.comcast.com/covid-19/network'
-      },  2559: {
-        name: 'Cox',
-        link: 'https://www.cox.com/residential/support/coronavirus-response.html?campcode=tnt-home-alert'
+    "id": "FL",
+    "name": "Florida",
+    "providers": {
+      "2558": {
+        "name": "Comcast",
+        "link": "https://corporate.comcast.com/covid-19/network"
+      },
+      "2559": {
+        "name": "Cox",
+        "link": "https://www.cox.com/residential/support/coronavirus-response.html?campcode=tnt-home-alert"
+      },
+      "2560": {
+        "name": "Charter",
+        "link": "https://corporate.charter.com/covid-19-response"
+      },
+      "2567": {
+        "name": "Mediacom",
+        "link": "https://mediacomcable.com/about/news/corona-company-initiatives/"
       }
     }
   },
-  GA: {
-    id: 'GA',
-    name: 'Georgia',
-    downstream_growth: {
-      overall: 15.5,
-      past_week: 4.3
+  "GA": {
+    "downstream_growth": {
+      "overall": 14.4,
+      "past_week": -1
     },
-    upstream_growth: {
-      overall: 24.7,
-      past_week: 6.1
+    "upstream_growth": {
+      "overall": 27.8,
+      "past_week": 2.5
     },
-    network_performance: {
-      normal: 97.1,
-      elevated: 2.8,
-      substantially_elevated: 0.1,
-      severely_elevated: 0.0
+    "network_performance": {
+      "normal": 96.8,
+      "elevated": 3.1,
+      "substantially_elevated": 0.1,
+      "severely_elevated": 0
     },
-    providers: {
-       2560: {
-        name: 'Charter',
-        link: 'https://policy.charter.com/press-releases/charter-offer-free-access-spectrum-broadband-wifi-60-days-new-k-12-college-student-households/'
-      },  2558: {
-        name: 'Comcast',
-        link: 'https://corporate.comcast.com/covid-19/network'
-      },  2559: {
-        name: 'Cox',
-        link: 'https://www.cox.com/residential/support/coronavirus-response.html?campcode=tnt-home-alert'
-      },  3604: {
-        name: 'Vyve',
-        link: 'https://www.vyvebroadband.com/covid-19-updates/'
+    "id": "GA",
+    "name": "Georgia",
+    "providers": {
+      "2558": {
+        "name": "Comcast",
+        "link": "https://corporate.comcast.com/covid-19/network"
+      },
+      "2559": {
+        "name": "Cox",
+        "link": "https://www.cox.com/residential/support/coronavirus-response.html?campcode=tnt-home-alert"
+      },
+      "2560": {
+        "name": "Charter",
+        "link": "https://corporate.charter.com/covid-19-response"
+      },
+      "2567": {
+        "name": "Mediacom",
+        "link": "https://mediacomcable.com/about/news/corona-company-initiatives/"
+      },
+      "3604": {
+        "name": "Vyve",
+        "link": "https://www.vyvebroadband.com/covid-19-updates/"
       }
     }
   },
-  HI: {
-    id: 'HI',
-    name: 'Hawaii',
-    downstream_growth: {
-      overall: 29.7,
-      past_week: 6.4
+  "HI": {
+    "downstream_growth": {
+      "overall": 28.9,
+      "past_week": -0.6
     },
-    upstream_growth: {
-      overall: 19.4,
-      past_week: 10.2
+    "upstream_growth": {
+      "overall": 20.1,
+      "past_week": 0.5
     },
-    network_performance: {
-      normal: 95.3,
-      elevated: 3.5,
-      substantially_elevated: 0.5,
-      severely_elevated: 0.6
+    "network_performance": {
+      "normal": 96.7,
+      "elevated": 2.9,
+      "substantially_elevated": 0.2,
+      "severely_elevated": 0.2
     },
-    providers: {
-       2560: {
-        name: 'Charter',
-        link: 'https://policy.charter.com/press-releases/charter-offer-free-access-spectrum-broadband-wifi-60-days-new-k-12-college-student-households/'
+    "id": "HI",
+    "name": "Hawaii",
+    "providers": {
+      "2560": {
+        "name": "Charter",
+        "link": "https://corporate.charter.com/covid-19-response"
       }
     }
   },
-  ID: {
-    id: 'ID',
-    name: 'Idaho',
-    downstream_growth: {
-      overall: 20.2,
-      past_week: 10.9
+  "ID": {
+    "downstream_growth": {
+      "overall": 18.6,
+      "past_week": -1.4
     },
-    upstream_growth: {
-      overall: 24.2,
-      past_week: 14.5
+    "upstream_growth": {
+      "overall": 34.7,
+      "past_week": 8.6
     },
-    network_performance: {
-      normal: 97.2,
-      elevated: 1.9,
-      substantially_elevated: 0.7,
-      severely_elevated: 0.2
+    "network_performance": {
+      "normal": 97.6,
+      "elevated": 1.7,
+      "substantially_elevated": 0.3,
+      "severely_elevated": 0.3
     },
-    providers: {
-      2558: {
-        name: 'Comcast',
-        link: 'https://corporate.comcast.com/covid-19/network'
+    "id": "ID",
+    "name": "Idaho",
+    "providers": {
+      "2558": {
+        "name": "Comcast",
+        "link": "https://corporate.comcast.com/covid-19/network"
       },
-      2559: {
-        name: 'Cox',
-        link: 'https://www.cox.com/residential/support/coronavirus-response.html?campcode=tnt-home-alert'
+      "2559": {
+        "name": "Cox",
+        "link": "https://www.cox.com/residential/support/coronavirus-response.html?campcode=tnt-home-alert"
       },
-      2560: {
-        name: 'Charter',
-        link: 'https://policy.charter.com/press-releases/charter-offer-free-access-spectrum-broadband-wifi-60-days-new-k-12-college-student-households/'
+      "2560": {
+        "name": "Charter",
+        "link": "https://corporate.charter.com/covid-19-response"
       }
     }
   },
-  IL: {
-    id: 'IL',
-    name: 'Illinois',
-    downstream_growth: {
-      overall: 23.0,
-      past_week: 5.9
+  "IL": {
+    "downstream_growth": {
+      "overall": 18.9,
+      "past_week": -3.4
     },
-    upstream_growth: {
-      overall: 32.8,
-      past_week: 7.4
+    "upstream_growth": {
+      "overall": 34.3,
+      "past_week": 1.2
     },
-    network_performance: {
-      normal: 95.2,
-      elevated: 4.5,
-      substantially_elevated: 0.3,
-      severely_elevated: 0.0
+    "network_performance": {
+      "normal": 94.7,
+      "elevated": 5,
+      "substantially_elevated": 0.3,
+      "severely_elevated": 0
     },
-    providers: {
-      2560: {
-        name: 'Charter',
-        link: 'https://policy.charter.com/press-releases/charter-offer-free-access-spectrum-broadband-wifi-60-days-new-k-12-college-student-households/'
+    "id": "IL",
+    "name": "Illinois",
+    "providers": {
+      "2558": {
+        "name": "Comcast",
+        "link": "https://corporate.comcast.com/covid-19/network"
       },
-      2558: {
-        name: 'Comcast',
-        link: 'https://corporate.comcast.com/covid-19/network'
+      "2560": {
+        "name": "Charter",
+        "link": "https://corporate.charter.com/covid-19-response"
+      },
+      "2567": {
+        "name": "Mediacom",
+        "link": "https://mediacomcable.com/about/news/corona-company-initiatives/"
       }
     }
   },
-  IN: {
-    id: 'IN',
-    name: 'Indiana',
-    downstream_growth: {
-      overall: 16.7,
-      past_week: 3.6
+  "IN": {
+    "downstream_growth": {
+      "overall": 13.9,
+      "past_week": -2.6
     },
-    upstream_growth: {
-      overall: 25.2,
-      past_week: 6.1
+    "upstream_growth": {
+      "overall": 27.9,
+      "past_week": 2.1
     },
-    network_performance: {
-      normal: 97.6,
-      elevated: 2.1,
-      substantially_elevated: 0.3,
-      severely_elevated: 0.0
+    "network_performance": {
+      "normal": 97.9,
+      "elevated": 1.9,
+      "substantially_elevated": 0.2,
+      "severely_elevated": 0
     },
-    providers: {
-       2560: {
-        name: 'Charter',
-        link: 'https://policy.charter.com/press-releases/charter-offer-free-access-spectrum-broadband-wifi-60-days-new-k-12-college-student-households/'
+    "id": "IN",
+    "name": "Indiana",
+    "providers": {
+      "2558": {
+        "name": "Comcast",
+        "link": "https://corporate.comcast.com/covid-19/network"
       },
-      2558: {
-        name: 'Comcast',
-        link: 'https://corporate.comcast.com/covid-19/network'
+      "2560": {
+        "name": "Charter",
+        "link": "https://corporate.charter.com/covid-19-response"
+      },
+      "2567": {
+        "name": "Mediacom",
+        "link": "https://mediacomcable.com/about/news/corona-company-initiatives/"
       }
     }
   },
-  IA: {
-    id: 'IA',
-    name: 'Iowa',
-    downstream_growth: {
-      overall: 12.5,
-      past_week: 1.4
+  "IA": {
+    "downstream_growth": {
+      "overall": 18.6,
+      "past_week": -1.2
     },
-    upstream_growth: {
-      overall: 22.3,
-      past_week: 4.1
+    "upstream_growth": {
+      "overall": 36.5,
+      "past_week": 2.5
     },
-    network_performance: {
-      normal: 100.0,
-      elevated: 0.0,
-      substantially_elevated: 0.0,
-      severely_elevated: 0.0
+    "network_performance": {
+      "normal": 99.8,
+      "elevated": 0.2,
+      "substantially_elevated": 0,
+      "severely_elevated": 0
     },
-    providers: {
-       2559: {
-        name: 'Cox',
-        link: 'https://www.cox.com/residential/support/coronavirus-response.html?campcode=tnt-home-alert'
+    "id": "IA",
+    "name": "Iowa",
+    "providers": {
+      "2559": {
+        "name": "Cox",
+        "link": "https://www.cox.com/residential/support/coronavirus-response.html?campcode=tnt-home-alert"
+      },
+      "2567": {
+        "name": "Mediacom",
+        "link": "https://mediacomcable.com/about/news/corona-company-initiatives/"
       }
     }
   },
-  KS: {
-    id: 'KS',
-    name: 'Kansas',
-    downstream_growth: {
-      overall: 17.7,
-      past_week: 6.8
+  "KS": {
+    "downstream_growth": {
+      "overall": 17.1,
+      "past_week": -0.9
     },
-    upstream_growth: {
-      overall: 23.8,
-      past_week: 7.1
+    "upstream_growth": {
+      "overall": 37,
+      "past_week": 9.8
     },
-    network_performance: {
-      normal: 99.0,
-      elevated: 1.0,
-      substantially_elevated: 0.0,
-      severely_elevated: 0.0
+    "network_performance": {
+      "normal": 98.6,
+      "elevated": 1.4,
+      "substantially_elevated": 0,
+      "severely_elevated": 0
     },
-    providers: {
-      2560: {
-        name: 'Charter',
-        link: 'https://policy.charter.com/press-releases/charter-offer-free-access-spectrum-broadband-wifi-60-days-new-k-12-college-student-households/'
+    "id": "KS",
+    "name": "Kansas",
+    "providers": {
+      "2558": {
+        "name": "Comcast",
+        "link": "https://corporate.comcast.com/covid-19/network"
       },
-      2558: {
-        name: 'Comcast',
-        link: 'https://corporate.comcast.com/covid-19/network'
+      "2559": {
+        "name": "Cox",
+        "link": "https://www.cox.com/residential/support/coronavirus-response.html?campcode=tnt-home-alert"
       },
-       2559: {
-        name: 'Cox',
-        link: 'https://www.cox.com/residential/support/coronavirus-response.html?campcode=tnt-home-alert'
+      "2560": {
+        "name": "Charter",
+        "link": "https://corporate.charter.com/covid-19-response"
       },
-      2568: {
-        name: 'Midco',
-        link: 'https://www.midco.com/covid-19-response/'
+      "2567": {
+        "name": "Mediacom",
+        "link": "https://mediacomcable.com/about/news/corona-company-initiatives/"
       },
-      3604: {
-        name: 'Vyve',
-        link: 'https://www.vyvebroadband.com/covid-19-updates/'
+      "2568": {
+        "name": "Midco",
+        "link": "https://www.midco.com/covid-19-response/"
+      },
+      "3604": {
+        "name": "Vyve",
+        "link": "https://www.vyvebroadband.com/covid-19-updates/"
       }
     }
   },
-  KY: {
-    id: 'KY',
-    name: 'Kentucky',
-    downstream_growth: {
-      overall: 11.3,
-      past_week: 1.8
+  "KY": {
+    "downstream_growth": {
+      "overall": 15,
+      "past_week": 3.3
     },
-    upstream_growth: {
-      overall: 14.8,
-      past_week: 2.6
+    "upstream_growth": {
+      "overall": 27.3,
+      "past_week": 10.5
     },
-    network_performance: {
-      normal: 97.6,
-      elevated: 2.0,
-      substantially_elevated: 0.3,
-      severely_elevated: 0.1
+    "network_performance": {
+      "normal": 98.4,
+      "elevated": 1.4,
+      "substantially_elevated": 0.1,
+      "severely_elevated": 0.1
     },
-    providers: {
-      2560: {
-        name: 'Charter',
-        link: 'https://policy.charter.com/press-releases/charter-offer-free-access-spectrum-broadband-wifi-60-days-new-k-12-college-student-households/'
+    "id": "KY",
+    "name": "Kentucky",
+    "providers": {
+      "2558": {
+        "name": "Comcast",
+        "link": "https://corporate.comcast.com/covid-19/network"
       },
-       2558: {
-        name: 'Comcast',
-        link: 'https://corporate.comcast.com/covid-19/network'
+      "2560": {
+        "name": "Charter",
+        "link": "https://corporate.charter.com/covid-19-response"
+      },
+      "2567": {
+        "name": "Mediacom",
+        "link": "https://mediacomcable.com/about/news/corona-company-initiatives/"
       }
     }
   },
-  LA: {
-    id: 'LA',
-    name: 'Louisiana',
-    downstream_growth: {
-      overall: 20.7,
-      past_week: 4.1
+  "LA": {
+    "downstream_growth": {
+      "overall": 19.6,
+      "past_week": -1
     },
-    upstream_growth: {
-      overall: 22.6,
-      past_week: 5.4
+    "upstream_growth": {
+      "overall": 25.2,
+      "past_week": 2.1
     },
-    network_performance: {
-      normal: 98.5,
-      elevated: 1.4,
-      substantially_elevated: 0.1,
-      severely_elevated: 0.0
+    "network_performance": {
+      "normal": 98.2,
+      "elevated": 1.6,
+      "substantially_elevated": 0.1,
+      "severely_elevated": 0.1
     },
-    providers: {
-       2560: {
-        name: 'Charter',
-        link: 'https://policy.charter.com/press-releases/charter-offer-free-access-spectrum-broadband-wifi-60-days-new-k-12-college-student-households/'
+    "id": "LA",
+    "name": "Louisiana",
+    "providers": {
+      "2558": {
+        "name": "Comcast",
+        "link": "https://corporate.comcast.com/covid-19/network"
       },
-      2558: {
-        name: 'Comcast',
-        link: 'https://corporate.comcast.com/covid-19/network'
+      "2559": {
+        "name": "Cox",
+        "link": "https://www.cox.com/residential/support/coronavirus-response.html?campcode=tnt-home-alert"
       },
-      2559: {
-        name: 'Cox',
-        link: 'https://www.cox.com/residential/support/coronavirus-response.html?campcode=tnt-home-alert'
+      "2560": {
+        "name": "Charter",
+        "link": "https://corporate.charter.com/covid-19-response"
       },
-      3604: {
-        name: 'Vyve',
-        link: 'https://www.vyvebroadband.com/covid-19-updates/'
+      "3604": {
+        "name": "Vyve",
+        "link": "https://www.vyvebroadband.com/covid-19-updates/"
       }
     }
   },
-  ME: {
-    id: 'ME',
-    name: 'Maine',
-    downstream_growth: {
-      overall: 19.1,
-      past_week: 3.6
+  "ME": {
+    "downstream_growth": {
+      "overall": 22.2,
+      "past_week": 2.6
     },
-    upstream_growth: {
-      overall: 37.4,
-      past_week: 5.8
+    "upstream_growth": {
+      "overall": 58.7,
+      "past_week": 15.5
     },
-    network_performance: {
-      normal: 99.7,
-      elevated: 0.3,
-      substantially_elevated: 0.0,
-      severely_elevated: 0.0
+    "network_performance": {
+      "normal": 99.4,
+      "elevated": 0.6,
+      "substantially_elevated": 0,
+      "severely_elevated": 0
     },
-    providers: {
-       2558: {
-        name: 'Comcast',
-        link: 'https://corporate.comcast.com/covid-19/network'
+    "id": "ME",
+    "name": "Maine",
+    "providers": {
+      "2558": {
+        "name": "Comcast",
+        "link": "https://corporate.comcast.com/covid-19/network"
       },
-      2560: {
-        name: 'Charter',
-        link: 'https://policy.charter.com/press-releases/charter-offer-free-access-spectrum-broadband-wifi-60-days-new-k-12-college-student-households/'
+      "2560": {
+        "name": "Charter",
+        "link": "https://corporate.charter.com/covid-19-response"
       }
     }
   },
-  MD: {
-    id: 'MD',
-    name: 'Maryland',
-    downstream_growth: {
-      overall: 17.7,
-      past_week: 4.4
+  "MD": {
+    "downstream_growth": {
+      "overall": 16.9,
+      "past_week": -0.7
     },
-    upstream_growth: {
-      overall: 27.8,
-      past_week: 7.6
+    "upstream_growth": {
+      "overall": 33.4,
+      "past_week": 4.4
     },
-    network_performance: {
-      normal: 98.0,
-      elevated: 1.9,
-      substantially_elevated: 0.0,
-      severely_elevated: 0.0
+    "network_performance": {
+      "normal": 97.3,
+      "elevated": 2.5,
+      "substantially_elevated": 0.2,
+      "severely_elevated": 0
     },
-    providers: {
-       2560: {
-        name: 'Charter',
-        link: 'https://policy.charter.com/press-releases/charter-offer-free-access-spectrum-broadband-wifi-60-days-new-k-12-college-student-households/'
+    "id": "MD",
+    "name": "Maryland",
+    "providers": {
+      "2558": {
+        "name": "Comcast",
+        "link": "https://corporate.comcast.com/covid-19/network"
       },
-      2558: {
-        name: 'Comcast',
-        link: 'https://corporate.comcast.com/covid-19/network'
+      "2560": {
+        "name": "Charter",
+        "link": "https://corporate.charter.com/covid-19-response"
+      },
+      "2567": {
+        "name": "Mediacom",
+        "link": "https://mediacomcable.com/about/news/corona-company-initiatives/"
       }
     }
   },
-  MA: {
-    id: 'MA',
-    name: 'Massachusetts',
-    downstream_growth: {
-      overall: 30.4,
-      past_week: 3.7
+  "MA": {
+    "downstream_growth": {
+      "overall": 30.5,
+      "past_week": 0
     },
-    upstream_growth: {
-      overall: 34.2,
-      past_week: 7.4
+    "upstream_growth": {
+      "overall": 40,
+      "past_week": 4.4
     },
-    network_performance: {
-      normal: 95.9,
-      elevated: 3.7,
-      substantially_elevated: 0.4,
-      severely_elevated: 0.0
+    "network_performance": {
+      "normal": 96.2,
+      "elevated": 3.4,
+      "substantially_elevated": 0.4,
+      "severely_elevated": 0
     },
-    providers: {
-       2560: {
-        name: 'Charter',
-        link: 'https://policy.charter.com/press-releases/charter-offer-free-access-spectrum-broadband-wifi-60-days-new-k-12-college-student-households/'
+    "id": "MA",
+    "name": "Massachusetts",
+    "providers": {
+      "2558": {
+        "name": "Comcast",
+        "link": "https://corporate.comcast.com/covid-19/network"
       },
-      2558: {
-        name: 'Comcast',
-        link: 'https://corporate.comcast.com/covid-19/network'
+      "2559": {
+        "name": "Cox",
+        "link": "https://www.cox.com/residential/support/coronavirus-response.html?campcode=tnt-home-alert"
       },
-      2559: {
-        name: 'Cox',
-        link: 'https://www.cox.com/residential/support/coronavirus-response.html?campcode=tnt-home-alert'
+      "2560": {
+        "name": "Charter",
+        "link": "https://corporate.charter.com/covid-19-response"
       }
     }
   },
-  MI: {
-    id: 'MI',
-    name: 'Michigan',
-    downstream_growth: {
-      overall: 23.9,
-      past_week: 6.5
+  "MI": {
+    "downstream_growth": {
+      "overall": 21.4,
+      "past_week": -2
     },
-    upstream_growth: {
-      overall: 32.1,
-      past_week: 10.5
+    "upstream_growth": {
+      "overall": 35.4,
+      "past_week": 2.5
     },
-    network_performance: {
-      normal: 97.3,
-      elevated: 2.4,
-      substantially_elevated: 0.3,
-      severely_elevated: 0.0
+    "network_performance": {
+      "normal": 97,
+      "elevated": 2.8,
+      "substantially_elevated": 0.2,
+      "severely_elevated": 0
     },
-    providers: {
-       2560: {
-        name: 'Charter',
-        link: 'https://policy.charter.com/press-releases/charter-offer-free-access-spectrum-broadband-wifi-60-days-new-k-12-college-student-households/'
+    "id": "MI",
+    "name": "Michigan",
+    "providers": {
+      "2558": {
+        "name": "Comcast",
+        "link": "https://corporate.comcast.com/covid-19/network"
       },
-      2558: {
-        name: 'Comcast',
-        link: 'https://corporate.comcast.com/covid-19/network'
+      "2560": {
+        "name": "Charter",
+        "link": "https://corporate.charter.com/covid-19-response"
+      },
+      "2567": {
+        "name": "Mediacom",
+        "link": "https://mediacomcable.com/about/news/corona-company-initiatives/"
       }
     }
   },
-  MN: {
-    id: 'MN',
-    name: 'Minnesota',
-    downstream_growth: {
-      overall: 27.1,
-      past_week: 3.7
+  "MN": {
+    "downstream_growth": {
+      "overall": 26.6,
+      "past_week": -1.3
     },
-    upstream_growth: {
-      overall: 32.2,
-      past_week: 8.3
+    "upstream_growth": {
+      "overall": 41.5,
+      "past_week": 5.8
     },
-    network_performance: {
-      normal: 97.6,
-      elevated: 2.1,
-      substantially_elevated: 0.3,
-      severely_elevated: 0.0
+    "network_performance": {
+      "normal": 96.7,
+      "elevated": 2.9,
+      "substantially_elevated": 0.3,
+      "severely_elevated": 0
     },
-    providers: {
-       2560: {
-        name: 'Charter',
-        link: 'https://policy.charter.com/press-releases/charter-offer-free-access-spectrum-broadband-wifi-60-days-new-k-12-college-student-households/'
+    "id": "MN",
+    "name": "Minnesota",
+    "providers": {
+      "2558": {
+        "name": "Comcast",
+        "link": "https://corporate.comcast.com/covid-19/network"
       },
-      2558: {
-        name: 'Comcast',
-        link: 'https://corporate.comcast.com/covid-19/network'
+      "2560": {
+        "name": "Charter",
+        "link": "https://corporate.charter.com/covid-19-response"
       },
-      2568: {
-        name: 'Midco',
-        link: 'https://www.midco.com/covid-19-response/'
+      "2567": {
+        "name": "Mediacom",
+        "link": "https://mediacomcable.com/about/news/corona-company-initiatives/"
       },
-      2620: {
-        name: 'Sjoberg\'s',
-        link: 'http://trf.mncable.net/'
+      "2568": {
+        "name": "Midco",
+        "link": "https://www.midco.com/covid-19-response/"
+      },
+      "2620": {
+        "name": "Sjoberg's",
+        "link": "http://trf.mncable.net/"
       }
     }
   },
-  MS: {
-    id: 'MS',
-    name: 'Mississippi',
-    downstream_growth: {
-      overall: 21.7,
-      past_week: 3.9
+  "MS": {
+    "downstream_growth": {
+      "overall": 20.1,
+      "past_week": -1.3
     },
-    upstream_growth: {
-      overall: 18.4,
-      past_week: 6.3
+    "upstream_growth": {
+      "overall": 20.8,
+      "past_week": 1.8
     },
-    network_performance: {
-      normal: 98.4,
-      elevated: 1.2,
-      substantially_elevated: 0.4,
-      severely_elevated: 0.0
+    "network_performance": {
+      "normal": 98.2,
+      "elevated": 1.5,
+      "substantially_elevated": 0.3,
+      "severely_elevated": 0
     },
-    providers: {
-       2560: {
-        name: 'Charter',
-        link: 'https://policy.charter.com/press-releases/charter-offer-free-access-spectrum-broadband-wifi-60-days-new-k-12-college-student-households/'
+    "id": "MS",
+    "name": "Mississippi",
+    "providers": {
+      "2558": {
+        "name": "Comcast",
+        "link": "https://corporate.comcast.com/covid-19/network"
       },
-      2558: {
-        name: 'Comcast',
-        link: 'https://corporate.comcast.com/covid-19/network'
+      "2560": {
+        "name": "Charter",
+        "link": "https://corporate.charter.com/covid-19-response"
+      },
+      "2567": {
+        "name": "Mediacom",
+        "link": "https://mediacomcable.com/about/news/corona-company-initiatives/"
       }
     }
   },
-  MO: {
-    id: 'MO',
-    name: 'Missouri',
-    downstream_growth: {
-      overall: 20.4,
-      past_week: 6.6
+  "MO": {
+    "downstream_growth": {
+      "overall": 16.7,
+      "past_week": -2.9
     },
-    upstream_growth: {
-      overall: 27.0,
-      past_week: 9.2
+    "upstream_growth": {
+      "overall": 35.6,
+      "past_week": 6.7
     },
-    network_performance: {
-      normal: 96.7,
-      elevated: 3.3,
-      substantially_elevated: 0.0,
-      severely_elevated: 0.0
+    "network_performance": {
+      "normal": 97.1,
+      "elevated": 2.8,
+      "substantially_elevated": 0,
+      "severely_elevated": 0
     },
-    providers: {
-       2560: {
-        name: 'Charter',
-        link: 'https://policy.charter.com/press-releases/charter-offer-free-access-spectrum-broadband-wifi-60-days-new-k-12-college-student-households/'
+    "id": "MO",
+    "name": "Missouri",
+    "providers": {
+      "2558": {
+        "name": "Comcast",
+        "link": "https://corporate.comcast.com/covid-19/network"
       },
-      2558: {
-        name: 'Comcast',
-        link: 'https://corporate.comcast.com/covid-19/network'
+      "2560": {
+        "name": "Charter",
+        "link": "https://corporate.charter.com/covid-19-response"
+      },
+      "2567": {
+        "name": "Mediacom",
+        "link": "https://mediacomcable.com/about/news/corona-company-initiatives/"
       }
     }
   },
-  MT: {
-    id: 'MT',
-    name: 'Montana',
-    downstream_growth: {
-      overall: 17.8,
-      past_week: 7.1
+  "MT": {
+    "downstream_growth": {
+      "overall": 18,
+      "past_week": 0.2
     },
-    upstream_growth: {
-      overall: 24.9,
-      past_week: 11.7
+    "upstream_growth": {
+      "overall": 44.1,
+      "past_week": 15.4
     },
-    network_performance: {
-      normal: 95.7,
-      elevated: 3.5,
-      substantially_elevated: 0.6,
-      severely_elevated: 0.3
+    "network_performance": {
+      "normal": 96,
+      "elevated": 3.2,
+      "substantially_elevated": 0.6,
+      "severely_elevated": 0.3
     },
-    providers: {
-       2560: {
-        name: 'Charter',
-        link: 'https://policy.charter.com/press-releases/charter-offer-free-access-spectrum-broadband-wifi-60-days-new-k-12-college-student-households/'
+    "id": "MT",
+    "name": "Montana",
+    "providers": {
+      "2560": {
+        "name": "Charter",
+        "link": "https://corporate.charter.com/covid-19-response"
       }
     }
   },
-  NE: {
-    id: 'NE',
-    name: 'Nebraska',
-    downstream_growth: {
-      overall: 17.7,
-      past_week: 4.9
+  "NE": {
+    "downstream_growth": {
+      "overall": 17.4,
+      "past_week": -0.3
     },
-    upstream_growth: {
-      overall: 25.3,
-      past_week: 7.6
+    "upstream_growth": {
+      "overall": 33.4,
+      "past_week": 6.5
     },
-    network_performance: {
-      normal: 99.0,
-      elevated: 1.0,
-      substantially_elevated: 0.0,
-      severely_elevated: 0.0
+    "network_performance": {
+      "normal": 98.7,
+      "elevated": 1.2,
+      "substantially_elevated": 0,
+      "severely_elevated": 0
     },
-    providers: {
-       2560: {
-        name: 'Charter',
-        link: 'https://policy.charter.com/press-releases/charter-offer-free-access-spectrum-broadband-wifi-60-days-new-k-12-college-student-households/'
+    "id": "NE",
+    "name": "Nebraska",
+    "providers": {
+      "2559": {
+        "name": "Cox",
+        "link": "https://www.cox.com/residential/support/coronavirus-response.html?campcode=tnt-home-alert"
       },
-      2559: {
-        name: 'Cox',
-        link: 'https://www.cox.com/residential/support/coronavirus-response.html?campcode=tnt-home-alert'
+      "2560": {
+        "name": "Charter",
+        "link": "https://corporate.charter.com/covid-19-response"
       }
     }
   },
-  NV: {
-    id: 'NV',
-    name: 'Nevada',
-    downstream_growth: {
-      overall: 21.0,
-      past_week: 2.3
+  "NV": {
+    "downstream_growth": {
+      "overall": 18.7,
+      "past_week": -1.9
     },
-    upstream_growth: {
-      overall: 26.7,
-      past_week: 4.9
+    "upstream_growth": {
+      "overall": 32.6,
+      "past_week": 4.6
     },
-    network_performance: {
-      normal: 95.3,
-      elevated: 4.2,
-      substantially_elevated: 0.4,
-      severely_elevated: 0.1
+    "network_performance": {
+      "normal": 95.7,
+      "elevated": 3.9,
+      "substantially_elevated": 0.4,
+      "severely_elevated": 0.1
     },
-    providers: {
-       2560: {
-        name: 'Charter',
-        link: 'https://policy.charter.com/press-releases/charter-offer-free-access-spectrum-broadband-wifi-60-days-new-k-12-college-student-households/'
+    "id": "NV",
+    "name": "Nevada",
+    "providers": {
+      "2559": {
+        "name": "Cox",
+        "link": "https://www.cox.com/residential/support/coronavirus-response.html?campcode=tnt-home-alert"
       },
-      2559: {
-        name: 'Cox',
-        link: 'https://www.cox.com/residential/support/coronavirus-response.html?campcode=tnt-home-alert'
+      "2560": {
+        "name": "Charter",
+        "link": "https://corporate.charter.com/covid-19-response"
       }
     }
   },
-  NH: {
-    id: 'NH',
-    name: 'New Hampshire',
-    downstream_growth: {
-      overall: 26.0,
-      past_week: 4.0
+  "NH": {
+    "downstream_growth": {
+      "overall": 27.6,
+      "past_week": 1.2
     },
-    upstream_growth: {
-      overall: 36.9,
-      past_week: 8.9
+    "upstream_growth": {
+      "overall": 42.5,
+      "past_week": 4
     },
-    network_performance: {
-      normal: 97.2,
-      elevated: 2.7,
-      substantially_elevated: 0.2,
-      severely_elevated: 0.0
+    "network_performance": {
+      "normal": 97,
+      "elevated": 2.8,
+      "substantially_elevated": 0.1,
+      "severely_elevated": 0
     },
-    providers: {
-       2560: {
-        name: 'Charter',
-        link: 'https://policy.charter.com/press-releases/charter-offer-free-access-spectrum-broadband-wifi-60-days-new-k-12-college-student-households/'
+    "id": "NH",
+    "name": "New Hampshire",
+    "providers": {
+      "2558": {
+        "name": "Comcast",
+        "link": "https://corporate.comcast.com/covid-19/network"
       },
-      2558: {
-        name: 'Comcast',
-        link: 'https://corporate.comcast.com/covid-19/network'
+      "2560": {
+        "name": "Charter",
+        "link": "https://corporate.charter.com/covid-19-response"
       }
     }
   },
-  NJ: {
-    id: 'NJ',
-    name: 'New Jersey',
-    downstream_growth: {
-      overall: 25.9,
-      past_week: 7.4
+  "NJ": {
+    "downstream_growth": {
+      "overall": 23.2,
+      "past_week": -2.1
     },
-    upstream_growth: {
-      overall: 35.3,
-      past_week: 8.7
+    "upstream_growth": {
+      "overall": 38.6,
+      "past_week": 2.5
     },
-    network_performance: {
-      normal: 95.3,
-      elevated: 4.0,
-      substantially_elevated: 0.7,
-      severely_elevated: 0.0
+    "network_performance": {
+      "normal": 95.1,
+      "elevated": 4.4,
+      "substantially_elevated": 0.5,
+      "severely_elevated": 0
     },
-    providers: {
-      2560: {
-        name: 'Charter',
-        link: 'https://policy.charter.com/press-releases/charter-offer-free-access-spectrum-broadband-wifi-60-days-new-k-12-college-student-households/'
+    "id": "NJ",
+    "name": "New Jersey",
+    "providers": {
+      "2558": {
+        "name": "Comcast",
+        "link": "https://corporate.comcast.com/covid-19/network"
       },
-      2558: {
-        name: 'Comcast',
-        link: 'https://corporate.comcast.com/covid-19/network'
-      },
-      2570: {
-        name: 'Service Electric Cable TV &amp; Communications',
-        link: 'http://www.sectv.com/'
+      "2560": {
+        "name": "Charter",
+        "link": "https://corporate.charter.com/covid-19-response"
       }
     }
   },
-  NM: {
-    id: 'NM',
-    name: 'New Mexico',
-    downstream_growth: {
-      overall: 22.3,
-      past_week: 4.7
+  "NM": {
+    "downstream_growth": {
+      "overall": 19.6,
+      "past_week": -2.2
     },
-    upstream_growth: {
-      overall: 23.3,
-      past_week: 7.4
+    "upstream_growth": {
+      "overall": 26.1,
+      "past_week": 2.3
     },
-    network_performance: {
-      normal: 93.6,
-      elevated: 5.4,
-      substantially_elevated: 1.0,
-      severely_elevated: 0.0
+    "network_performance": {
+      "normal": 93.1,
+      "elevated": 6.1,
+      "substantially_elevated": 0.8,
+      "severely_elevated": 0
     },
-    providers: {
-      2560: {
-        name: 'Charter',
-        link: 'https://policy.charter.com/press-releases/charter-offer-free-access-spectrum-broadband-wifi-60-days-new-k-12-college-student-households/'
+    "id": "NM",
+    "name": "New Mexico",
+    "providers": {
+      "2558": {
+        "name": "Comcast",
+        "link": "https://corporate.comcast.com/covid-19/network"
       },
-       2558: {
-        name: 'Comcast',
-        link: 'https://corporate.comcast.com/covid-19/network'
+      "2560": {
+        "name": "Charter",
+        "link": "https://corporate.charter.com/covid-19-response"
       }
     }
   },
-  NY: {
-    id: 'NY',
-    name: 'New York',
-    downstream_growth: {
-      overall: 20.1,
-      past_week: 3.3
+  "NY": {
+    "downstream_growth": {
+      "overall": 17.6,
+      "past_week": -2.1
     },
-    upstream_growth: {
-      overall: 34.0,
-      past_week: 5.4
+    "upstream_growth": {
+      "overall": 42.6,
+      "past_week": 6.5
     },
-    network_performance: {
-      normal: 94.9,
-      elevated: 4.9,
-      substantially_elevated: 0.2,
-      severely_elevated: 0.0
+    "network_performance": {
+      "normal": 94.2,
+      "elevated": 5.6,
+      "substantially_elevated": 0.2,
+      "severely_elevated": 0
     },
-    providers: {
-      2560: {
-        name: 'Charter',
-        link: 'https://policy.charter.com/press-releases/charter-offer-free-access-spectrum-broadband-wifi-60-days-new-k-12-college-student-households/'
+    "id": "NY",
+    "name": "New York",
+    "providers": {
+      "2558": {
+        "name": "Comcast",
+        "link": "https://corporate.comcast.com/covid-19/network"
       },
-      2558: {
-        name: 'Comcast',
-        link: 'https://corporate.comcast.com/covid-19/network'
+      "2560": {
+        "name": "Charter",
+        "link": "https://corporate.charter.com/covid-19-response"
+      },
+      "2567": {
+        "name": "Mediacom",
+        "link": "https://mediacomcable.com/about/news/corona-company-initiatives/"
       }
     }
   },
-  NC: {
-    id: 'NC',
-    name: 'North Carolina',
-    downstream_growth: {
-      overall: 16.8,
-      past_week: 6.4
+  "NC": {
+    "downstream_growth": {
+      "overall": 21.1,
+      "past_week": 3.6
     },
-    upstream_growth: {
-      overall: 19.3,
-      past_week: 8.3
+    "upstream_growth": {
+      "overall": 30.3,
+      "past_week": 9.1
     },
-    network_performance: {
-      normal: 97.6,
-      elevated: 2.2,
-      substantially_elevated: 0.2,
-      severely_elevated: 0.0
+    "network_performance": {
+      "normal": 97.6,
+      "elevated": 2.3,
+      "substantially_elevated": 0.1,
+      "severely_elevated": 0
     },
-    providers: {
-       2560: {
-        name: 'Charter',
-        link: 'https://policy.charter.com/press-releases/charter-offer-free-access-spectrum-broadband-wifi-60-days-new-k-12-college-student-households/'
+    "id": "NC",
+    "name": "North Carolina",
+    "providers": {
+      "2558": {
+        "name": "Comcast",
+        "link": "https://corporate.comcast.com/covid-19/network"
       },
-      2558: {
-        name: 'Comcast',
-        link: 'https://corporate.comcast.com/covid-19/network'
+      "2559": {
+        "name": "Cox",
+        "link": "https://www.cox.com/residential/support/coronavirus-response.html?campcode=tnt-home-alert"
       },
-      2559: {
-        name: 'Cox',
-        link: 'https://www.cox.com/residential/support/coronavirus-response.html?campcode=tnt-home-alert'
+      "2560": {
+        "name": "Charter",
+        "link": "https://corporate.charter.com/covid-19-response"
+      },
+      "2567": {
+        "name": "Mediacom",
+        "link": "https://mediacomcable.com/about/news/corona-company-initiatives/"
       }
     }
   },
-  ND: {
-    id: 'ND',
-    name: 'North Dakota',
-    downstream_growth: {
-      overall: 10.7,
-      past_week: 6.9
+  "ND": {
+    "downstream_growth": {
+      "overall": 13.8,
+      "past_week": -2.9
     },
-    upstream_growth: {
-      overall: 17.8,
-      past_week: 5.4
+    "upstream_growth": {
+      "overall": 22.5,
+      "past_week": 4.2
     },
-    network_performance: {
-      normal: 99.5,
-      elevated: 0.4,
-      substantially_elevated: 0.1,
-      severely_elevated: 0.0
+    "network_performance": {
+      "normal": 99.5,
+      "elevated": 0.4,
+      "substantially_elevated": 0.1,
+      "severely_elevated": 0
     },
-    providers: {
-       2568: {
-        name: 'Midco',
-        link: 'https://www.midco.com/covid-19-response/'
+    "id": "ND",
+    "name": "North Dakota",
+    "providers": {
+      "2568": {
+        "name": "Midco",
+        "link": "https://www.midco.com/covid-19-response/"
       }
     }
   },
-  OH: {
-    id: 'OH',
-    name: 'Ohio',
-    downstream_growth: {
-      overall: 18.9,
-      past_week: 5.6
+  "OH": {
+    "downstream_growth": {
+      "overall": 15.2,
+      "past_week": -3.1
     },
-    upstream_growth: {
-      overall: 24.0,
-      past_week: 9.1
+    "upstream_growth": {
+      "overall": 29.3,
+      "past_week": 4.2
     },
-    network_performance: {
-      normal: 96.7,
-      elevated: 2.9,
-      substantially_elevated: 0.2,
-      severely_elevated: 0.1
+    "network_performance": {
+      "normal": 97.6,
+      "elevated": 2.3,
+      "substantially_elevated": 0.1,
+      "severely_elevated": 0.1
     },
-    providers: {
-      2560: {
-        name: 'Charter',
-        link: 'https://policy.charter.com/press-releases/charter-offer-free-access-spectrum-broadband-wifi-60-days-new-k-12-college-student-households/'
+    "id": "OH",
+    "name": "Ohio",
+    "providers": {
+      "2558": {
+        "name": "Comcast",
+        "link": "https://corporate.comcast.com/covid-19/network"
       },
-       2558: {
-        name: 'Comcast',
-        link: 'https://corporate.comcast.com/covid-19/network'
+      "2559": {
+        "name": "Cox",
+        "link": "https://www.cox.com/residential/support/coronavirus-response.html?campcode=tnt-home-alert"
       },
-      2559: {
-        name: 'Cox',
-        link: 'https://www.cox.com/residential/support/coronavirus-response.html?campcode=tnt-home-alert'
+      "2560": {
+        "name": "Charter",
+        "link": "https://corporate.charter.com/covid-19-response"
+      },
+      "2567": {
+        "name": "Mediacom",
+        "link": "https://mediacomcable.com/about/news/corona-company-initiatives/"
       }
     }
   },
-  OK: {
-    id: 'OK',
-    name: 'Oklahoma',
-    downstream_growth: {
-      overall: 13.6,
-      past_week: 4.5
+  "OK": {
+    "downstream_growth": {
+      "overall": 15.5,
+      "past_week": 1.7
     },
-    upstream_growth: {
-      overall: 17.3,
-      past_week: 8.4
+    "upstream_growth": {
+      "overall": 23,
+      "past_week": 4.9
     },
-    network_performance: {
-      normal: 99.3,
-      elevated: 0.7,
-      substantially_elevated: 0.0,
-      severely_elevated: 0.0
+    "network_performance": {
+      "normal": 99.2,
+      "elevated": 0.8,
+      "substantially_elevated": 0,
+      "severely_elevated": 0
     },
-    providers: {
-       2559: {
-        name: 'Cox',
-        link: 'https://www.cox.com/residential/support/coronavirus-response.html?campcode=tnt-home-alert'
+    "id": "OK",
+    "name": "Oklahoma",
+    "providers": {
+      "2559": {
+        "name": "Cox",
+        "link": "https://www.cox.com/residential/support/coronavirus-response.html?campcode=tnt-home-alert"
       },
-      3604: {
-        name: 'Vyve',
-        link: 'https://www.vyvebroadband.com/covid-19-updates/'
+      "3604": {
+        "name": "Vyve",
+        "link": "https://www.vyvebroadband.com/covid-19-updates/"
       }
     }
   },
-  OR: {
-    id: 'OR',
-    name: 'Oregon',
-    downstream_growth: {
-      overall: 23.6,
-      past_week: 7.1
+  "OR": {
+    "downstream_growth": {
+      "overall": 22.3,
+      "past_week": -1.1
     },
-    upstream_growth: {
-      overall: 26.7,
-      past_week: 8.1
+    "upstream_growth": {
+      "overall": 32.9,
+      "past_week": 5
     },
-    network_performance: {
-      normal: 96.5,
-      elevated: 2.9,
-      substantially_elevated: 0.5,
-      severely_elevated: 0.0
+    "network_performance": {
+      "normal": 95.7,
+      "elevated": 3.6,
+      "substantially_elevated": 0.7,
+      "severely_elevated": 0
     },
-    providers: {
-       2560: {
-        name: 'Charter',
-        link: 'https://policy.charter.com/press-releases/charter-offer-free-access-spectrum-broadband-wifi-60-days-new-k-12-college-student-households/'
+    "id": "OR",
+    "name": "Oregon",
+    "providers": {
+      "2558": {
+        "name": "Comcast",
+        "link": "https://corporate.comcast.com/covid-19/network"
       },
-      2558: {
-        name: 'Comcast',
-        link: 'https://corporate.comcast.com/covid-19/network'
+      "2560": {
+        "name": "Charter",
+        "link": "https://corporate.charter.com/covid-19-response"
       }
     }
   },
-  PA: {
-    id: 'PA',
-    name: 'Pennsylvania',
-    downstream_growth: {
-      overall: 18.7,
-      past_week: 4.1
+  "PA": {
+    "downstream_growth": {
+      "overall": 17,
+      "past_week": -1.5
     },
-    upstream_growth: {
-      overall: 28.8,
-      past_week: 8.0
+    "upstream_growth": {
+      "overall": 32.9,
+      "past_week": 3.2
     },
-    network_performance: {
-      normal: 98.0,
-      elevated: 1.8,
-      substantially_elevated: 0.2,
-      severely_elevated: 0.0
+    "network_performance": {
+      "normal": 97.9,
+      "elevated": 2,
+      "substantially_elevated": 0.2,
+      "severely_elevated": 0
     },
-    providers: {
-       2560: {
-        name: 'Charter',
-        link: 'https://policy.charter.com/press-releases/charter-offer-free-access-spectrum-broadband-wifi-60-days-new-k-12-college-student-households/'
+    "id": "PA",
+    "name": "Pennsylvania",
+    "providers": {
+      "2558": {
+        "name": "Comcast",
+        "link": "https://corporate.comcast.com/covid-19/network"
       },
-      2558: {
-        name: 'Comcast',
-        link: 'https://corporate.comcast.com/covid-19/network'
-      },
-      2570: {
-        name: 'Service Electric Cable TV &amp; Communications',
-        link: 'http://www.sectv.com/'
+      "2560": {
+        "name": "Charter",
+        "link": "https://corporate.charter.com/covid-19-response"
       }
     }
   },
-  RI: {
-    id: 'RI',
-    name: 'Rhode Island',
-    downstream_growth: {
-      overall: 22.9,
-      past_week: 3.3
+  "RI": {
+    "downstream_growth": {
+      "overall": 28.6,
+      "past_week": 4.6
     },
-    upstream_growth: {
-      overall: 46.6,
-      past_week: 16.9
+    "upstream_growth": {
+      "overall": 46.7,
+      "past_week": 0
     },
-    network_performance: {
-      normal: 98.6,
-      elevated: 1.3,
-      substantially_elevated: 0.1,
-      severely_elevated: 0.0
+    "network_performance": {
+      "normal": 98.4,
+      "elevated": 1.5,
+      "substantially_elevated": 0.1,
+      "severely_elevated": 0
     },
-    providers: {
-       2559: {
-        name: 'Cox',
-        link: 'https://www.cox.com/residential/support/coronavirus-response.html?campcode=tnt-home-alert'
+    "id": "RI",
+    "name": "Rhode Island",
+    "providers": {
+      "2559": {
+        "name": "Cox",
+        "link": "https://www.cox.com/residential/support/coronavirus-response.html?campcode=tnt-home-alert"
       }
     }
   },
-  SC: {
-    id: 'SC',
-    name: 'South Carolina',
-    downstream_growth: {
-      overall: 14.0,
-      past_week: 4.9
+  "SC": {
+    "downstream_growth": {
+      "overall": 18.1,
+      "past_week": 3.6
     },
-    upstream_growth: {
-      overall: 15.4,
-      past_week: 4.3
+    "upstream_growth": {
+      "overall": 25.4,
+      "past_week": 8.8
     },
-    network_performance: {
-      normal: 98.8,
-      elevated: 1.2,
-      substantially_elevated: 0.0,
-      severely_elevated: 0.0
+    "network_performance": {
+      "normal": 98.4,
+      "elevated": 1.5,
+      "substantially_elevated": 0,
+      "severely_elevated": 0
     },
-    providers: {
-       2560: {
-        name: 'Charter',
-        link: 'https://policy.charter.com/press-releases/charter-offer-free-access-spectrum-broadband-wifi-60-days-new-k-12-college-student-households/'
+    "id": "SC",
+    "name": "South Carolina",
+    "providers": {
+      "2558": {
+        "name": "Comcast",
+        "link": "https://corporate.comcast.com/covid-19/network"
       },
-      2558: {
-        name: 'Comcast',
-        link: 'https://corporate.comcast.com/covid-19/network'
+      "2560": {
+        "name": "Charter",
+        "link": "https://corporate.charter.com/covid-19-response"
       }
     }
   },
-  SD: {
-    id: 'SD',
-    name: 'South Dakota',
-    downstream_growth: {
-      overall: 13.5,
-      past_week: 9.0
+  "SD": {
+    "downstream_growth": {
+      "overall": 12.8,
+      "past_week": -2.5
     },
-    upstream_growth: {
-      overall: -3.1,
-      past_week: 24.9
+    "upstream_growth": {
+      "overall": 3.4,
+      "past_week": 5.9
     },
-    network_performance: {
-      normal: 99.1,
-      elevated: 0.8,
-      substantially_elevated: 0.1,
-      severely_elevated: 0.0
+    "network_performance": {
+      "normal": 99,
+      "elevated": 0.9,
+      "substantially_elevated": 0.2,
+      "severely_elevated": 0
     },
-    providers: {
-      2568: {
-        name: 'Midco',
-        link: 'https://www.midco.com/covid-19-response/'
+    "id": "SD",
+    "name": "South Dakota",
+    "providers": {
+      "2567": {
+        "name": "Mediacom",
+        "link": "https://mediacomcable.com/about/news/corona-company-initiatives/"
+      },
+      "2568": {
+        "name": "Midco",
+        "link": "https://www.midco.com/covid-19-response/"
       }
     }
   },
-  TN: {
-    id: 'TN',
-    name: 'Tennessee',
-    downstream_growth: {
-      overall: 16.4,
-      past_week: 3.6
+  "TN": {
+    "downstream_growth": {
+      "overall": 14.9,
+      "past_week": -1.2
     },
-    upstream_growth: {
-      overall: 19.3,
-      past_week: 6.3
+    "upstream_growth": {
+      "overall": 25,
+      "past_week": 4.9
     },
-    network_performance: {
-      normal: 97.8,
-      elevated: 2.1,
-      substantially_elevated: 0.1,
-      severely_elevated: 0.0
+    "network_performance": {
+      "normal": 97.3,
+      "elevated": 2.6,
+      "substantially_elevated": 0.1,
+      "severely_elevated": 0
     },
-    providers: {
-       2560: {
-        name: 'Charter',
-        link: 'https://policy.charter.com/press-releases/charter-offer-free-access-spectrum-broadband-wifi-60-days-new-k-12-college-student-households/'
+    "id": "TN",
+    "name": "Tennessee",
+    "providers": {
+      "2558": {
+        "name": "Comcast",
+        "link": "https://corporate.comcast.com/covid-19/network"
       },
-      2558: {
-        name: 'Comcast',
-        link: 'https://corporate.comcast.com/covid-19/network'
+      "2560": {
+        "name": "Charter",
+        "link": "https://corporate.charter.com/covid-19-response"
       },
-      3604: {
-        name: 'Vyve',
-        link: 'https://www.vyvebroadband.com/covid-19-updates/'
+      "2567": {
+        "name": "Mediacom",
+        "link": "https://mediacomcable.com/about/news/corona-company-initiatives/"
+      },
+      "3604": {
+        "name": "Vyve",
+        "link": "https://www.vyvebroadband.com/covid-19-updates/"
       }
     }
   },
-  TX: {
-    id: 'TX',
-    name: 'Texas',
-    downstream_growth: {
-      overall: 19.5,
-      past_week: 2.7
+  "TX": {
+    "downstream_growth": {
+      "overall": 18,
+      "past_week": -1.3
     },
-    upstream_growth: {
-      overall: 24.3,
-      past_week: 7.1
+    "upstream_growth": {
+      "overall": 31.1,
+      "past_week": 5.5
     },
-    network_performance: {
-      normal: 96.2,
-      elevated: 3.3,
-      substantially_elevated: 0.3,
-      severely_elevated: 0.1
+    "network_performance": {
+      "normal": 95.9,
+      "elevated": 3.7,
+      "substantially_elevated": 0.4,
+      "severely_elevated": 0.1
     },
-    providers: {
-       2560: {
-        name: 'Charter',
-        link: 'https://policy.charter.com/press-releases/charter-offer-free-access-spectrum-broadband-wifi-60-days-new-k-12-college-student-households/'
+    "id": "TX",
+    "name": "Texas",
+    "providers": {
+      "2558": {
+        "name": "Comcast",
+        "link": "https://corporate.comcast.com/covid-19/network"
       },
-      2558: {
-        name: 'Comcast',
-        link: 'https://corporate.comcast.com/covid-19/network'
+      "2560": {
+        "name": "Charter",
+        "link": "https://corporate.charter.com/covid-19-response"
       },
-      3604: {
-        name: 'Vyve',
-        link: 'https://www.vyvebroadband.com/covid-19-updates/'
+      "3604": {
+        "name": "Vyve",
+        "link": "https://www.vyvebroadband.com/covid-19-updates/"
       }
     }
   },
-  UT: {
-    id: 'UT',
-    name: 'Utah',
-    downstream_growth: {
-      overall: 11.6,
-      past_week: 2.0
+  "UT": {
+    "downstream_growth": {
+      "overall": 11.5,
+      "past_week": 0
     },
-    upstream_growth: {
-      overall: 31.5,
-      past_week: 7.2
+    "upstream_growth": {
+      "overall": 34.2,
+      "past_week": 2
     },
-    network_performance: {
-      normal: 95.1,
-      elevated: 4.9,
-      substantially_elevated: 0.0,
-      severely_elevated: 0.0
+    "network_performance": {
+      "normal": 94.7,
+      "elevated": 5.3,
+      "substantially_elevated": 0,
+      "severely_elevated": 0
     },
-    providers: {
-       2558: {
-        name: 'Comcast',
-        link: 'https://corporate.comcast.com/covid-19/network'
+    "id": "UT",
+    "name": "Utah",
+    "providers": {
+      "2558": {
+        "name": "Comcast",
+        "link": "https://corporate.comcast.com/covid-19/network"
       }
     }
   },
-  VT: {
-    id: 'VT',
-    name: 'Vermont',
-    downstream_growth: {
-      overall: 22.7,
-      past_week: 4.6
+  "VT": {
+    "downstream_growth": {
+      "overall": 22.3,
+      "past_week": -0.4
     },
-    upstream_growth: {
-      overall: 36.2,
-      past_week: 11.4
+    "upstream_growth": {
+      "overall": 40,
+      "past_week": 2.8
     },
-    network_performance: {
-      normal: 99.3,
-      elevated: 0.6,
-      substantially_elevated: 0.1,
-      severely_elevated: 0.0
+    "network_performance": {
+      "normal": 99.4,
+      "elevated": 0.5,
+      "substantially_elevated": 0.1,
+      "severely_elevated": 0
     },
-    providers: {
-       2560: {
-        name: 'Charter',
-        link: 'https://policy.charter.com/press-releases/charter-offer-free-access-spectrum-broadband-wifi-60-days-new-k-12-college-student-households/'
+    "id": "VT",
+    "name": "Vermont",
+    "providers": {
+      "2558": {
+        "name": "Comcast",
+        "link": "https://corporate.comcast.com/covid-19/network"
       },
-      2558: {
-        name: 'Comcast',
-        link: 'https://corporate.comcast.com/covid-19/network'
+      "2560": {
+        "name": "Charter",
+        "link": "https://corporate.charter.com/covid-19-response"
       }
     }
   },
-  VA: {
-    id: 'VA',
-    name: 'Virginia',
-    downstream_growth: {
-      overall: 14.3,
-      past_week: 4.8
+  "VA": {
+    "downstream_growth": {
+      "overall": 12,
+      "past_week": -2
     },
-    upstream_growth: {
-      overall: 26.5,
-      past_week: 8.3
+    "upstream_growth": {
+      "overall": 30.3,
+      "past_week": 3
     },
-    network_performance: {
-      normal: 98.7,
-      elevated: 1.2,
-      substantially_elevated: 0.0,
-      severely_elevated: 0.0
+    "network_performance": {
+      "normal": 98.7,
+      "elevated": 1.3,
+      "substantially_elevated": 0,
+      "severely_elevated": 0
     },
-    providers: {
-       2560: {
-        name: 'Charter',
-        link: 'https://policy.charter.com/press-releases/charter-offer-free-access-spectrum-broadband-wifi-60-days-new-k-12-college-student-households/'
+    "id": "VA",
+    "name": "Virginia",
+    "providers": {
+      "2558": {
+        "name": "Comcast",
+        "link": "https://corporate.comcast.com/covid-19/network"
       },
-      2558: {
-        name: 'Comcast',
-        link: 'https://corporate.comcast.com/covid-19/network'
+      "2559": {
+        "name": "Cox",
+        "link": "https://www.cox.com/residential/support/coronavirus-response.html?campcode=tnt-home-alert"
       },
-      2559: {
-        name: 'Cox',
-        link: 'https://www.cox.com/residential/support/coronavirus-response.html?campcode=tnt-home-alert'
+      "2560": {
+        "name": "Charter",
+        "link": "https://corporate.charter.com/covid-19-response"
       }
     }
   },
-  WA: {
-    id: 'WA',
-    name: 'Washington',
-    downstream_growth: {
-      overall: 24.1,
-      past_week: 7.3
+  "WA": {
+    "downstream_growth": {
+      "overall": 22.9,
+      "past_week": -1
     },
-    upstream_growth: {
-      overall: 30.6,
-      past_week: 8.5
+    "upstream_growth": {
+      "overall": 34.5,
+      "past_week": 3
     },
-    network_performance: {
-      normal: 94.2,
-      elevated: 4.7,
-      substantially_elevated: 1.0,
-      severely_elevated: 0.1
+    "network_performance": {
+      "normal": 93.4,
+      "elevated": 5.4,
+      "substantially_elevated": 1.1,
+      "severely_elevated": 0
     },
-    providers: {
-       2560: {
-        name: 'Charter',
-        link: 'https://policy.charter.com/press-releases/charter-offer-free-access-spectrum-broadband-wifi-60-days-new-k-12-college-student-households/'
+    "id": "WA",
+    "name": "Washington",
+    "providers": {
+      "2558": {
+        "name": "Comcast",
+        "link": "https://corporate.comcast.com/covid-19/network"
       },
-      2558: {
-        name: 'Comcast',
-        link: 'https://corporate.comcast.com/covid-19/network'
+      "2560": {
+        "name": "Charter",
+        "link": "https://corporate.charter.com/covid-19-response"
       }
     }
   },
-  WV: {
-    id: 'WV',
-    name: 'West Virginia',
-    downstream_growth: {
-      overall: 10.1,
-      past_week: 4.8
+  "WV": {
+    "downstream_growth": {
+      "overall": 5.7,
+      "past_week": -4
     },
-    upstream_growth: {
-      overall: 19.6,
-      past_week: 7.6
+    "upstream_growth": {
+      "overall": 22.7,
+      "past_week": 2.6
     },
-    network_performance: {
-      normal: 99.1,
-      elevated: 0.8,
-      substantially_elevated: 0.1,
-      severely_elevated: 0.0
+    "network_performance": {
+      "normal": 98.9,
+      "elevated": 1.1,
+      "substantially_elevated": 0.1,
+      "severely_elevated": 0
     },
-    providers: {
-       2558: {
-        name: 'Comcast',
-        link: 'https://corporate.comcast.com/covid-19/network'
+    "id": "WV",
+    "name": "West Virginia",
+    "providers": {
+      "2558": {
+        "name": "Comcast",
+        "link": "https://corporate.comcast.com/covid-19/network"
       },
-      2560: {
-        name: 'Charter',
-        link: 'http://www.charter.net'
+      "2560": {
+        "name": "Charter",
+        "link": "http://www.charter.net"
       }
     }
   },
-  WI: {
-    id: 'WI',
-    name: 'Wisconsin',
-    downstream_growth: {
-      overall: 19.1,
-      past_week: 6.9
+  "WI": {
+    "downstream_growth": {
+      "overall": 12.8,
+      "past_week": -5.3
     },
-    upstream_growth: {
-      overall: 34.3,
-      past_week: 12.5
+    "upstream_growth": {
+      "overall": 39.9,
+      "past_week": 4.1
     },
-    network_performance: {
-      normal: 94.5,
-      elevated: 4.9,
-      substantially_elevated: 0.4,
-      severely_elevated: 0.2
+    "network_performance": {
+      "normal": 94.9,
+      "elevated": 4.9,
+      "substantially_elevated": 0.2,
+      "severely_elevated": 0.1
     },
-    providers: {
-       2560: {
-        name: 'Charter',
-        link: 'https://policy.charter.com/press-releases/charter-offer-free-access-spectrum-broadband-wifi-60-days-new-k-12-college-student-households/'
+    "id": "WI",
+    "name": "Wisconsin",
+    "providers": {
+      "2558": {
+        "name": "Comcast",
+        "link": "https://corporate.comcast.com/covid-19/network"
       },
-      2558: {
-        name: 'Comcast',
-        link: 'https://corporate.comcast.com/covid-19/network'
+      "2560": {
+        "name": "Charter",
+        "link": "https://corporate.charter.com/covid-19-response"
       },
-      2568: {
-        name: 'Midco',
-        link: 'https://www.midco.com/covid-19-response/'
+      "2567": {
+        "name": "Mediacom",
+        "link": "https://mediacomcable.com/about/news/corona-company-initiatives/"
+      },
+      "2568": {
+        "name": "Midco",
+        "link": "https://www.midco.com/covid-19-response/"
       }
     }
   },
-  WY: {
-    id: 'WY',
-    name: 'Wyoming',
-    downstream_growth: {
-      overall: 17.3,
-      past_week: 5.1
+  "WY": {
+    "downstream_growth": {
+      "overall": 16.3,
+      "past_week": -0.8
     },
-    upstream_growth: {
-      overall: 17.0,
-      past_week: 7.8
+    "upstream_growth": {
+      "overall": 24.9,
+      "past_week": 6.8
     },
-    network_performance: {
-      normal: 96.3,
-      elevated: 3.2,
-      substantially_elevated: 0.2,
-      severely_elevated: 0.2
+    "network_performance": {
+      "normal": 97.6,
+      "elevated": 1.8,
+      "substantially_elevated": 0.6,
+      "severely_elevated": 0
     },
-    providers: {
-       2560: {
-        name: 'Charter',
-        link: 'https://policy.charter.com/press-releases/charter-offer-free-access-spectrum-broadband-wifi-60-days-new-k-12-college-student-households/'
+    "id": "WY",
+    "name": "Wyoming",
+    "providers": {
+      "2560": {
+        "name": "Charter",
+        "link": "https://corporate.charter.com/covid-19-response"
       },
-      3604: {
-        name: 'Vyve',
-        link: 'https://www.vyvebroadband.com/covid-19-updates/'
+      "3604": {
+        "name": "Vyve",
+        "link": "https://www.vyvebroadband.com/covid-19-updates/"
       }
     }
   }
