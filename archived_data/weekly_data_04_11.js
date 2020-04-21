@@ -1,30 +1,22 @@
 var data_states_metrics = {
   "US": {
     "downstream_growth": {
-      "overall": 20,
-      "past_week": 0.7
+      "overall": 18.9,
+      "past_week": -1.1
     },
     "upstream_growth": {
-      "overall": 34,
-      "past_week": 0.7
+      "overall": 33,
+      "past_week": 4.1
     },
     "network_performance": {
       "normal": 95.8,
-      "elevated": 3.8,
+      "elevated": 3.9,
       "substantially_elevated": 0.3,
-      "severely_elevated": 0.1
+      "severely_elevated": 0
     },
     "id": "US",
     "name": "National",
     "providers": {
-     "2556": {
-        "name": "Altice",
-        "link": "https://www.alticeusa.com/together"
-      },
-      "2557": {
-        "name": "CableOne",
-        "link": "http://one2one.sparklight.com/?_ga=2.260016458.1743412501.1586903661-1661052777.1586903661"
-      },
       "2558": {
         "name": "Comcast",
         "link": "https://corporate.comcast.com/covid-19/network"
@@ -49,6 +41,10 @@ var data_states_metrics = {
         "name": "GCI",
         "link": "https://www.gci.com/COVID-19"
       },
+      "3604": {
+        "name": "Vyve",
+        "link": "https://www.vyvebroadband.com/covid-19-updates/"
+      },
       "2620": {
         "name": "Sjoberg's",
         "link": "http://trf.mncable.net/"
@@ -57,18 +53,18 @@ var data_states_metrics = {
   },
   "AL": {
     "downstream_growth": {
-      "overall": 18.2,
-      "past_week": 3.2
+      "overall": 14.6,
+      "past_week": 1
     },
     "upstream_growth": {
-      "overall": 27.5,
-      "past_week": 5.8
+      "overall": 20.5,
+      "past_week": 6.1
     },
     "network_performance": {
-      "normal": 96.8,
-      "elevated": 2.7,
-      "substantially_elevated": 0.4,
-      "severely_elevated": 0.1
+      "normal": 98.2,
+      "elevated": 1.6,
+      "substantially_elevated": 0.2,
+      "severely_elevated": 0
     },
     "id": "AL",
     "name": "Alabama",
@@ -89,12 +85,12 @@ var data_states_metrics = {
   },
   "AK": {
     "downstream_growth": {
-      "overall": 42.5,
-      "past_week": 12.3
+      "overall": 22.5,
+      "past_week": 2
     },
     "upstream_growth": {
-      "overall": 37.5,
-      "past_week": 4.8
+      "overall": 29.1,
+      "past_week": 2
     },
     "network_performance": {
       "normal": 99.7,
@@ -113,26 +109,22 @@ var data_states_metrics = {
   },
   "AZ": {
     "downstream_growth": {
-      "overall": 16.9,
-      "past_week": 2.8
+      "overall": 13.6,
+      "past_week": -2.6
     },
     "upstream_growth": {
-      "overall": 39.3,
-      "past_week": 2.6
+      "overall": 37.3,
+      "past_week": 6.2
     },
     "network_performance": {
-      "normal": 96.1,
-      "elevated": 3.5,
-      "substantially_elevated": 0.3,
-      "severely_elevated": 0
+      "normal": 95.5,
+      "elevated": 4.1,
+      "substantially_elevated": 0.4,
+      "severely_elevated": 0.1
     },
     "id": "AZ",
     "name": "Arizona",
     "providers": {
-      "2556": {
-        "name": "Altice",
-        "link": "https://www.alticeusa.com/together"
-      },
       "2558": {
         "name": "Comcast",
         "link": "https://corporate.comcast.com/covid-19/network"
@@ -153,26 +145,22 @@ var data_states_metrics = {
   },
   "AR": {
     "downstream_growth": {
-      "overall": 14.4,
-      "past_week": 0.2
+      "overall": 16,
+      "past_week": 0.3
     },
     "upstream_growth": {
-      "overall": 27.2,
-      "past_week": 1.6
+      "overall": 25.8,
+      "past_week": 9.6
     },
     "network_performance": {
-      "normal": 98.1,
-      "elevated": 1.6,
-      "substantially_elevated": 0.3,
+      "normal": 98.6,
+      "elevated": 1.3,
+      "substantially_elevated": 0.1,
       "severely_elevated": 0
     },
     "id": "AR",
     "name": "Arkansas",
     "providers": {
-      "2556": {
-        "name": "Altice",
-        "link": "https://www.alticeusa.com/together"
-      },
       "2558": {
         "name": "Comcast",
         "link": "https://corporate.comcast.com/covid-19/network"
@@ -180,31 +168,31 @@ var data_states_metrics = {
       "2559": {
         "name": "Cox",
         "link": "https://www.cox.com/residential/support/coronavirus-response.html?campcode=tnt-home-alert"
+      },
+      "3604": {
+        "name": "Vyve",
+        "link": "https://www.vyvebroadband.com/covid-19-updates/"
       }
     }
   },
   "CA": {
     "downstream_growth": {
-      "overall": 25,
-      "past_week": 2.9
+      "overall": 21.6,
+      "past_week": -2.4
     },
     "upstream_growth": {
-      "overall": 38.3,
-      "past_week": 0.8
+      "overall": 37.2,
+      "past_week": 1.2
     },
     "network_performance": {
-      "normal": 88.4,
-      "elevated": 10.5,
-      "substantially_elevated": 0.6,
-      "severely_elevated": 0.4
+      "normal": 89.1,
+      "elevated": 10.3,
+      "substantially_elevated": 0.5,
+      "severely_elevated": 0.1
     },
     "id": "CA",
     "name": "California",
     "providers": {
-      "2556": {
-        "name": "Altice",
-        "link": "https://www.alticeusa.com/together"
-      },
       "2558": {
         "name": "Comcast",
         "link": "https://corporate.comcast.com/covid-19/network"
@@ -225,17 +213,17 @@ var data_states_metrics = {
   },
   "CO": {
     "downstream_growth": {
-      "overall": 11.5,
-      "past_week": -2.1
+      "overall": 13.9,
+      "past_week": -1.8
     },
     "upstream_growth": {
-      "overall": 32.8,
-      "past_week": -3.1
+      "overall": 37.1,
+      "past_week": 4.5
     },
     "network_performance": {
-      "normal": 92.9,
-      "elevated": 7.1,
-      "substantially_elevated": 0,
+      "normal": 91.2,
+      "elevated": 8.6,
+      "substantially_elevated": 0.2,
       "severely_elevated": 0
     },
     "id": "CO",
@@ -248,31 +236,31 @@ var data_states_metrics = {
       "2560": {
         "name": "Charter",
         "link": "https://corporate.charter.com/covid-19-response"
+      },
+      "3604": {
+        "name": "Vyve",
+        "link": "https://www.vyvebroadband.com/covid-19-updates/"
       }
     }
   },
   "CT": {
     "downstream_growth": {
-      "overall": 28.9,
-      "past_week": -0.5
+      "overall": 28.7,
+      "past_week": 0
     },
     "upstream_growth": {
-      "overall": 42.3,
-      "past_week": 0.8
+      "overall": 40.5,
+      "past_week": 1.6
     },
     "network_performance": {
-      "normal": 95,
-      "elevated": 4.2,
-      "substantially_elevated": 0.8,
+      "normal": 96.1,
+      "elevated": 3.6,
+      "substantially_elevated": 0.3,
       "severely_elevated": 0
     },
     "id": "CT",
     "name": "Connecticut",
     "providers": {
-      "2556": {
-         "name": "Altice",
-         "link": "https://www.alticeusa.com/together"
-      },
       "2558": {
         "name": "Comcast",
         "link": "https://corporate.comcast.com/covid-19/network"
@@ -289,17 +277,17 @@ var data_states_metrics = {
   },
   "DE": {
     "downstream_growth": {
-      "overall": 15.5,
-      "past_week": -1.9
+      "overall": 18,
+      "past_week": -2
     },
     "upstream_growth": {
-      "overall": 33.7,
-      "past_week": 0.4
+      "overall": 33.4,
+      "past_week": 3.4
     },
     "network_performance": {
-      "normal": 98.3,
-      "elevated": 1.6,
-      "substantially_elevated": 0,
+      "normal": 96.6,
+      "elevated": 2.6,
+      "substantially_elevated": 0.8,
       "severely_elevated": 0
     },
     "id": "DE",
@@ -317,16 +305,16 @@ var data_states_metrics = {
   },
   "DC": {
     "downstream_growth": {
-      "overall": 11.5,
-      "past_week": 0.1
+      "overall": 11.4,
+      "past_week": -2.9
     },
     "upstream_growth": {
-      "overall": 34.6,
-      "past_week": -0.9
+      "overall": 35.8,
+      "past_week": 3.3
     },
     "network_performance": {
-      "normal": 96.5,
-      "elevated": 3.5,
+      "normal": 96.1,
+      "elevated": 3.9,
       "substantially_elevated": 0,
       "severely_elevated": 0
     },
@@ -341,17 +329,17 @@ var data_states_metrics = {
   },
   "FL": {
     "downstream_growth": {
-      "overall": 21,
-      "past_week": 2.5
+      "overall": 18,
+      "past_week": 0.7
     },
     "upstream_growth": {
-      "overall": 27.1,
-      "past_week": 1.3
+      "overall": 25.4,
+      "past_week": 3.8
     },
     "network_performance": {
-      "normal": 96.8,
-      "elevated": 2.9,
-      "substantially_elevated": 0.3,
+      "normal": 96.6,
+      "elevated": 3,
+      "substantially_elevated": 0.4,
       "severely_elevated": 0
     },
     "id": "FL",
@@ -377,16 +365,16 @@ var data_states_metrics = {
   },
   "GA": {
     "downstream_growth": {
-      "overall": 15.8,
-      "past_week": 1.3
+      "overall": 14.4,
+      "past_week": -1
     },
     "upstream_growth": {
-      "overall": 28.3,
-      "past_week": 0.4
+      "overall": 27.8,
+      "past_week": 2.5
     },
     "network_performance": {
-      "normal": 97.3,
-      "elevated": 2.6,
+      "normal": 96.8,
+      "elevated": 3.1,
       "substantially_elevated": 0.1,
       "severely_elevated": 0
     },
@@ -408,22 +396,26 @@ var data_states_metrics = {
       "2567": {
         "name": "Mediacom",
         "link": "https://mediacomcable.com/about/news/corona-company-initiatives/"
+      },
+      "3604": {
+        "name": "Vyve",
+        "link": "https://www.vyvebroadband.com/covid-19-updates/"
       }
     }
   },
   "HI": {
     "downstream_growth": {
-      "overall": 26.8,
-      "past_week": -1.7
+      "overall": 28.9,
+      "past_week": -0.6
     },
     "upstream_growth": {
-      "overall": 21.7,
-      "past_week": 1.4
+      "overall": 20.1,
+      "past_week": 0.5
     },
     "network_performance": {
-      "normal": 96.5,
-      "elevated": 3.1,
-      "substantially_elevated": 0.3,
+      "normal": 96.7,
+      "elevated": 2.9,
+      "substantially_elevated": 0.2,
       "severely_elevated": 0.2
     },
     "id": "HI",
@@ -437,30 +429,22 @@ var data_states_metrics = {
   },
   "ID": {
     "downstream_growth": {
-      "overall": 16.1,
-      "past_week": -0.6
+      "overall": 18.6,
+      "past_week": -1.4
     },
     "upstream_growth": {
-      "overall": 36.1,
-      "past_week": -0.2
+      "overall": 34.7,
+      "past_week": 8.6
     },
     "network_performance": {
-      "normal": 99.1,
-      "elevated": 0.7,
-      "substantially_elevated": 0.1,
-      "severely_elevated": 0
+      "normal": 97.6,
+      "elevated": 1.7,
+      "substantially_elevated": 0.3,
+      "severely_elevated": 0.3
     },
     "id": "ID",
     "name": "Idaho",
     "providers": {
-      "2556": {
-        "name": "Altice",
-        "link": "https://www.alticeusa.com/together"
-      },
-      "2557": {
-        "name": "CableOne",
-        "link": "http://one2one.sparklight.com/?_ga=2.260016458.1743412501.1586903661-1661052777.1586903661"
-      },
       "2558": {
         "name": "Comcast",
         "link": "https://corporate.comcast.com/covid-19/network"
@@ -477,17 +461,17 @@ var data_states_metrics = {
   },
   "IL": {
     "downstream_growth": {
-      "overall": 15.3,
-      "past_week": -1.6
+      "overall": 18.9,
+      "past_week": -3.4
     },
     "upstream_growth": {
-      "overall": 36.9,
-      "past_week": 1.7
+      "overall": 34.3,
+      "past_week": 1.2
     },
     "network_performance": {
-      "normal": 94.8,
-      "elevated": 5.2,
-      "substantially_elevated": 0,
+      "normal": 94.7,
+      "elevated": 5,
+      "substantially_elevated": 0.3,
       "severely_elevated": 0
     },
     "id": "IL",
@@ -510,16 +494,16 @@ var data_states_metrics = {
   "IN": {
     "downstream_growth": {
       "overall": 13.9,
-      "past_week": 0
+      "past_week": -2.6
     },
     "upstream_growth": {
-      "overall": 29.2,
-      "past_week": 1.1
+      "overall": 27.9,
+      "past_week": 2.1
     },
     "network_performance": {
-      "normal": 97.7,
-      "elevated": 2.1,
-      "substantially_elevated": 0.1,
+      "normal": 97.9,
+      "elevated": 1.9,
+      "substantially_elevated": 0.2,
       "severely_elevated": 0
     },
     "id": "IN",
@@ -541,16 +525,16 @@ var data_states_metrics = {
   },
   "IA": {
     "downstream_growth": {
-      "overall": 18.7,
-      "past_week": 1.7
+      "overall": 18.6,
+      "past_week": -1.2
     },
     "upstream_growth": {
-      "overall": 38.3,
-      "past_week": 1.9
+      "overall": 36.5,
+      "past_week": 2.5
     },
     "network_performance": {
       "normal": 99.8,
-      "elevated": 0.1,
+      "elevated": 0.2,
       "substantially_elevated": 0,
       "severely_elevated": 0
     },
@@ -569,26 +553,22 @@ var data_states_metrics = {
   },
   "KS": {
     "downstream_growth": {
-      "overall": 16.4,
-      "past_week": -0.6
+      "overall": 17.1,
+      "past_week": -0.9
     },
     "upstream_growth": {
-      "overall": 36.3,
-      "past_week": -0.3
+      "overall": 37,
+      "past_week": 9.8
     },
     "network_performance": {
-      "normal": 98.9,
-      "elevated": 1,
-      "substantially_elevated": 0.1,
+      "normal": 98.6,
+      "elevated": 1.4,
+      "substantially_elevated": 0,
       "severely_elevated": 0
     },
     "id": "KS",
     "name": "Kansas",
     "providers": {
-      "2556": {
-        "name": "Altice",
-        "link": "https://www.alticeusa.com/together"
-      },
       "2558": {
         "name": "Comcast",
         "link": "https://corporate.comcast.com/covid-19/network"
@@ -608,31 +588,31 @@ var data_states_metrics = {
       "2568": {
         "name": "Midco",
         "link": "https://www.midco.com/covid-19-response/"
+      },
+      "3604": {
+        "name": "Vyve",
+        "link": "https://www.vyvebroadband.com/covid-19-updates/"
       }
     }
   },
   "KY": {
     "downstream_growth": {
-      "overall": 11.9,
-      "past_week": -2.5
+      "overall": 15,
+      "past_week": 3.3
     },
     "upstream_growth": {
-      "overall": 24.2,
-      "past_week": -2.3
+      "overall": 27.3,
+      "past_week": 10.5
     },
     "network_performance": {
-      "normal": 97.8,
-      "elevated": 2,
+      "normal": 98.4,
+      "elevated": 1.4,
       "substantially_elevated": 0.1,
       "severely_elevated": 0.1
     },
     "id": "KY",
     "name": "Kentucky",
     "providers": {
-      "2556": {
-        "name": "Altice",
-        "link": "https://www.alticeusa.com/together"
-      },
       "2558": {
         "name": "Comcast",
         "link": "https://corporate.comcast.com/covid-19/network"
@@ -649,26 +629,22 @@ var data_states_metrics = {
   },
   "LA": {
     "downstream_growth": {
-      "overall": 22.3,
-      "past_week": 1.2
+      "overall": 19.6,
+      "past_week": -1
     },
     "upstream_growth": {
-      "overall": 25.5,
-      "past_week": 1.2
+      "overall": 25.2,
+      "past_week": 2.1
     },
     "network_performance": {
-      "normal": 98.1,
-      "elevated": 1.7,
-      "substantially_elevated": 0.2,
-      "severely_elevated": 0
+      "normal": 98.2,
+      "elevated": 1.6,
+      "substantially_elevated": 0.1,
+      "severely_elevated": 0.1
     },
     "id": "LA",
     "name": "Louisiana",
     "providers": {
-      "2556": {
-        "name": "Altice",
-        "link": "https://www.alticeusa.com/together"
-      },
       "2558": {
         "name": "Comcast",
         "link": "https://corporate.comcast.com/covid-19/network"
@@ -680,17 +656,21 @@ var data_states_metrics = {
       "2560": {
         "name": "Charter",
         "link": "https://corporate.charter.com/covid-19-response"
+      },
+      "3604": {
+        "name": "Vyve",
+        "link": "https://www.vyvebroadband.com/covid-19-updates/"
       }
     }
   },
   "ME": {
     "downstream_growth": {
-      "overall": 20.7,
-      "past_week": -1.2
+      "overall": 22.2,
+      "past_week": 2.6
     },
     "upstream_growth": {
-      "overall": 65.6,
-      "past_week": 4.3
+      "overall": 58.7,
+      "past_week": 15.5
     },
     "network_performance": {
       "normal": 99.4,
@@ -713,17 +693,17 @@ var data_states_metrics = {
   },
   "MD": {
     "downstream_growth": {
-      "overall": 16.2,
-      "past_week": -0.6
+      "overall": 16.9,
+      "past_week": -0.7
     },
     "upstream_growth": {
-      "overall": 34,
-      "past_week": 0.5
+      "overall": 33.4,
+      "past_week": 4.4
     },
     "network_performance": {
-      "normal": 97.8,
-      "elevated": 2.2,
-      "substantially_elevated": 0,
+      "normal": 97.3,
+      "elevated": 2.5,
+      "substantially_elevated": 0.2,
       "severely_elevated": 0
     },
     "id": "MD",
@@ -745,16 +725,16 @@ var data_states_metrics = {
   },
   "MA": {
     "downstream_growth": {
-      "overall": 29.4,
-      "past_week": -0.8
+      "overall": 30.5,
+      "past_week": 0
     },
     "upstream_growth": {
-      "overall": 41.5,
-      "past_week": 1.1
+      "overall": 40,
+      "past_week": 4.4
     },
     "network_performance": {
-      "normal": 95.8,
-      "elevated": 3.9,
+      "normal": 96.2,
+      "elevated": 3.4,
       "substantially_elevated": 0.4,
       "severely_elevated": 0
     },
@@ -777,17 +757,17 @@ var data_states_metrics = {
   },
   "MI": {
     "downstream_growth": {
-      "overall": 22.9,
-      "past_week": 1.2
+      "overall": 21.4,
+      "past_week": -2
     },
     "upstream_growth": {
-      "overall": 38.1,
-      "past_week": 1.9
+      "overall": 35.4,
+      "past_week": 2.5
     },
     "network_performance": {
-      "normal": 97.3,
-      "elevated": 2.5,
-      "substantially_elevated": 0.1,
+      "normal": 97,
+      "elevated": 2.8,
+      "substantially_elevated": 0.2,
       "severely_elevated": 0
     },
     "id": "MI",
@@ -809,17 +789,17 @@ var data_states_metrics = {
   },
   "MN": {
     "downstream_growth": {
-      "overall": 24.5,
-      "past_week": -1.6
+      "overall": 26.6,
+      "past_week": -1.3
     },
     "upstream_growth": {
-      "overall": 44.7,
-      "past_week": 1.7
+      "overall": 41.5,
+      "past_week": 5.8
     },
     "network_performance": {
-      "normal": 96.3,
-      "elevated": 3.3,
-      "substantially_elevated": 0.4,
+      "normal": 96.7,
+      "elevated": 2.9,
+      "substantially_elevated": 0.3,
       "severely_elevated": 0
     },
     "id": "MN",
@@ -849,26 +829,22 @@ var data_states_metrics = {
   },
   "MS": {
     "downstream_growth": {
-      "overall": 22.8,
-      "past_week": 2.1
+      "overall": 20.1,
+      "past_week": -1.3
     },
     "upstream_growth": {
-      "overall": 23.4,
-      "past_week": 2.3
+      "overall": 20.8,
+      "past_week": 1.8
     },
     "network_performance": {
-      "normal": 98,
-      "elevated": 1.6,
-      "substantially_elevated": 0.4,
+      "normal": 98.2,
+      "elevated": 1.5,
+      "substantially_elevated": 0.3,
       "severely_elevated": 0
     },
     "id": "MS",
     "name": "Mississippi",
     "providers": {
-      "2556": {
-        "name": "Altice",
-        "link": "https://www.alticeusa.com/together"
-      },
       "2558": {
         "name": "Comcast",
         "link": "https://corporate.comcast.com/covid-19/network"
@@ -885,11 +861,11 @@ var data_states_metrics = {
   },
   "MO": {
     "downstream_growth": {
-      "overall": 14.8,
-      "past_week": -0.9
+      "overall": 16.7,
+      "past_week": -2.9
     },
     "upstream_growth": {
-      "overall": 42.2,
+      "overall": 35.6,
       "past_week": 6.7
     },
     "network_performance": {
@@ -901,10 +877,6 @@ var data_states_metrics = {
     "id": "MO",
     "name": "Missouri",
     "providers": {
-      "2556": {
-        "name": "Altice",
-        "link": "https://www.alticeusa.com/together"
-      },
       "2558": {
         "name": "Comcast",
         "link": "https://corporate.comcast.com/covid-19/network"
@@ -921,18 +893,18 @@ var data_states_metrics = {
   },
   "MT": {
     "downstream_growth": {
-      "overall": 17,
-      "past_week": -0.8
+      "overall": 18,
+      "past_week": 0.2
     },
     "upstream_growth": {
-      "overall": 43.1,
-      "past_week": -0.7
+      "overall": 44.1,
+      "past_week": 15.4
     },
     "network_performance": {
-      "normal": 97.3,
-      "elevated": 2.4,
-      "substantially_elevated": 0.2,
-      "severely_elevated": 0.1
+      "normal": 96,
+      "elevated": 3.2,
+      "substantially_elevated": 0.6,
+      "severely_elevated": 0.3
     },
     "id": "MT",
     "name": "Montana",
@@ -945,16 +917,16 @@ var data_states_metrics = {
   },
   "NE": {
     "downstream_growth": {
-      "overall": 14.5,
-      "past_week": -2.5
+      "overall": 17.4,
+      "past_week": -0.3
     },
     "upstream_growth": {
-      "overall": 38.3,
-      "past_week": 3.7
+      "overall": 33.4,
+      "past_week": 6.5
     },
     "network_performance": {
-      "normal": 99,
-      "elevated": 1,
+      "normal": 98.7,
+      "elevated": 1.2,
       "substantially_elevated": 0,
       "severely_elevated": 0
     },
@@ -973,26 +945,22 @@ var data_states_metrics = {
   },
   "NV": {
     "downstream_growth": {
-      "overall": 24.1,
-      "past_week": 4.6
+      "overall": 18.7,
+      "past_week": -1.9
     },
     "upstream_growth": {
-      "overall": 33.5,
-      "past_week": 0.6
+      "overall": 32.6,
+      "past_week": 4.6
     },
     "network_performance": {
-      "normal": 96,
-      "elevated": 3.6,
-      "substantially_elevated": 0.3,
+      "normal": 95.7,
+      "elevated": 3.9,
+      "substantially_elevated": 0.4,
       "severely_elevated": 0.1
     },
     "id": "NV",
     "name": "Nevada",
     "providers": {
-      "2556": {
-        "name": "Altice",
-        "link": "https://www.alticeusa.com/together"
-      },
       "2559": {
         "name": "Cox",
         "link": "https://www.cox.com/residential/support/coronavirus-response.html?campcode=tnt-home-alert"
@@ -1005,17 +973,17 @@ var data_states_metrics = {
   },
   "NH": {
     "downstream_growth": {
-      "overall": 26.7,
-      "past_week": -0.7
+      "overall": 27.6,
+      "past_week": 1.2
     },
     "upstream_growth": {
-      "overall": 44.5,
-      "past_week": 1.3
+      "overall": 42.5,
+      "past_week": 4
     },
     "network_performance": {
-      "normal": 96.8,
+      "normal": 97,
       "elevated": 2.8,
-      "substantially_elevated": 0.4,
+      "substantially_elevated": 0.1,
       "severely_elevated": 0
     },
     "id": "NH",
@@ -1033,26 +1001,22 @@ var data_states_metrics = {
   },
   "NJ": {
     "downstream_growth": {
-      "overall": 24.9,
-      "past_week": -1.1
+      "overall": 23.2,
+      "past_week": -2.1
     },
     "upstream_growth": {
-      "overall": 38,
-      "past_week": -0.7
+      "overall": 38.6,
+      "past_week": 2.5
     },
     "network_performance": {
-      "normal": 95.6,
-      "elevated": 3.9,
+      "normal": 95.1,
+      "elevated": 4.4,
       "substantially_elevated": 0.5,
       "severely_elevated": 0
     },
     "id": "NJ",
     "name": "New Jersey",
     "providers": {
-      "2556": {
-        "name": "Altice",
-        "link": "https://www.alticeusa.com/together"
-      },
       "2558": {
         "name": "Comcast",
         "link": "https://corporate.comcast.com/covid-19/network"
@@ -1065,26 +1029,22 @@ var data_states_metrics = {
   },
   "NM": {
     "downstream_growth": {
-      "overall": 19.2,
-      "past_week": 0.1
+      "overall": 19.6,
+      "past_week": -2.2
     },
     "upstream_growth": {
-      "overall": 28,
-      "past_week": 1.9
+      "overall": 26.1,
+      "past_week": 2.3
     },
     "network_performance": {
       "normal": 93.1,
-      "elevated": 6.5,
-      "substantially_elevated": 0.4,
+      "elevated": 6.1,
+      "substantially_elevated": 0.8,
       "severely_elevated": 0
     },
     "id": "NM",
     "name": "New Mexico",
     "providers": {
-      "2556": {
-        "name": "Altice",
-        "link": "https://www.alticeusa.com/together"
-      },
       "2558": {
         "name": "Comcast",
         "link": "https://corporate.comcast.com/covid-19/network"
@@ -1097,26 +1057,22 @@ var data_states_metrics = {
   },
   "NY": {
     "downstream_growth": {
-      "overall": 23.1,
-      "past_week": 0.9
+      "overall": 17.6,
+      "past_week": -2.1
     },
     "upstream_growth": {
-      "overall": 40.9,
-      "past_week": -0.2
+      "overall": 42.6,
+      "past_week": 6.5
     },
     "network_performance": {
-      "normal": 95.1,
-      "elevated": 4.5,
-      "substantially_elevated": 0.4,
+      "normal": 94.2,
+      "elevated": 5.6,
+      "substantially_elevated": 0.2,
       "severely_elevated": 0
     },
     "id": "NY",
     "name": "New York",
     "providers": {
-      "2556": {
-        "name": "Altice",
-        "link": "https://www.alticeusa.com/together"
-      },
       "2558": {
         "name": "Comcast",
         "link": "https://corporate.comcast.com/covid-19/network"
@@ -1133,26 +1089,22 @@ var data_states_metrics = {
   },
   "NC": {
     "downstream_growth": {
-      "overall": 18.6,
-      "past_week": -1.8
+      "overall": 21.1,
+      "past_week": 3.6
     },
     "upstream_growth": {
-      "overall": 29.7,
-      "past_week": -0.3
+      "overall": 30.3,
+      "past_week": 9.1
     },
     "network_performance": {
-      "normal": 97,
-      "elevated": 2.8,
-      "substantially_elevated": 0.2,
+      "normal": 97.6,
+      "elevated": 2.3,
+      "substantially_elevated": 0.1,
       "severely_elevated": 0
     },
     "id": "NC",
     "name": "North Carolina",
     "providers": {
-      "2556": {
-        "name": "Altice",
-        "link": "https://www.alticeusa.com/together"
-      },
       "2558": {
         "name": "Comcast",
         "link": "https://corporate.comcast.com/covid-19/network"
@@ -1173,16 +1125,16 @@ var data_states_metrics = {
   },
   "ND": {
     "downstream_growth": {
-      "overall": 15.8,
-      "past_week": -1.7
+      "overall": 13.8,
+      "past_week": -2.9
     },
     "upstream_growth": {
-      "overall": 24,
-      "past_week": -0.1
+      "overall": 22.5,
+      "past_week": 4.2
     },
     "network_performance": {
-      "normal": 99.2,
-      "elevated": 0.7,
+      "normal": 99.5,
+      "elevated": 0.4,
       "substantially_elevated": 0.1,
       "severely_elevated": 0
     },
@@ -1197,26 +1149,22 @@ var data_states_metrics = {
   },
   "OH": {
     "downstream_growth": {
-      "overall": 16.7,
-      "past_week": 1.4
+      "overall": 15.2,
+      "past_week": -3.1
     },
     "upstream_growth": {
-      "overall": 30.2,
-      "past_week": 0.8
+      "overall": 29.3,
+      "past_week": 4.2
     },
     "network_performance": {
-      "normal": 97.4,
-      "elevated": 2.4,
+      "normal": 97.6,
+      "elevated": 2.3,
       "substantially_elevated": 0.1,
-      "severely_elevated": 0
+      "severely_elevated": 0.1
     },
     "id": "OH",
     "name": "Ohio",
     "providers": {
-      "2556": {
-        "name": "Altice",
-        "link": "https://www.alticeusa.com/together"
-      },
       "2558": {
         "name": "Comcast",
         "link": "https://corporate.comcast.com/covid-19/network"
@@ -1237,45 +1185,45 @@ var data_states_metrics = {
   },
   "OK": {
     "downstream_growth": {
-      "overall": 14.3,
-      "past_week": -0.2
+      "overall": 15.5,
+      "past_week": 1.7
     },
     "upstream_growth": {
-      "overall": 26.3,
-      "past_week": 3.4
+      "overall": 23,
+      "past_week": 4.9
     },
     "network_performance": {
-      "normal": 99.1,
-      "elevated": 0.7,
-      "substantially_elevated": 0.1,
-      "severely_elevated": 0.1
+      "normal": 99.2,
+      "elevated": 0.8,
+      "substantially_elevated": 0,
+      "severely_elevated": 0
     },
     "id": "OK",
     "name": "Oklahoma",
     "providers": {
-      "2556": {
-        "name": "Altice",
-        "link": "https://www.alticeusa.com/together"
-      },
       "2559": {
         "name": "Cox",
         "link": "https://www.cox.com/residential/support/coronavirus-response.html?campcode=tnt-home-alert"
+      },
+      "3604": {
+        "name": "Vyve",
+        "link": "https://www.vyvebroadband.com/covid-19-updates/"
       }
     }
   },
   "OR": {
     "downstream_growth": {
-      "overall": 20.8,
+      "overall": 22.3,
       "past_week": -1.1
     },
     "upstream_growth": {
-      "overall": 32.5,
-      "past_week": -0.3
+      "overall": 32.9,
+      "past_week": 5
     },
     "network_performance": {
-      "normal": 95.9,
-      "elevated": 3.4,
-      "substantially_elevated": 0.6,
+      "normal": 95.7,
+      "elevated": 3.6,
+      "substantially_elevated": 0.7,
       "severely_elevated": 0
     },
     "id": "OR",
@@ -1293,17 +1241,17 @@ var data_states_metrics = {
   },
   "PA": {
     "downstream_growth": {
-      "overall": 16.5,
-      "past_week": -0.4
+      "overall": 17,
+      "past_week": -1.5
     },
     "upstream_growth": {
-      "overall": 32.5,
-      "past_week": -0.3
+      "overall": 32.9,
+      "past_week": 3.2
     },
     "network_performance": {
-      "normal": 98.1,
-      "elevated": 1.8,
-      "substantially_elevated": 0.1,
+      "normal": 97.9,
+      "elevated": 2,
+      "substantially_elevated": 0.2,
       "severely_elevated": 0
     },
     "id": "PA",
@@ -1321,17 +1269,17 @@ var data_states_metrics = {
   },
   "RI": {
     "downstream_growth": {
-      "overall": 26,
-      "past_week": -2
+      "overall": 28.6,
+      "past_week": 4.6
     },
     "upstream_growth": {
-      "overall": 51,
-      "past_week": 2.9
+      "overall": 46.7,
+      "past_week": 0
     },
     "network_performance": {
-      "normal": 99.2,
-      "elevated": 0.8,
-      "substantially_elevated": 0,
+      "normal": 98.4,
+      "elevated": 1.5,
+      "substantially_elevated": 0.1,
       "severely_elevated": 0
     },
     "id": "RI",
@@ -1345,17 +1293,17 @@ var data_states_metrics = {
   },
   "SC": {
     "downstream_growth": {
-      "overall": 19.5,
-      "past_week": 1.2
+      "overall": 18.1,
+      "past_week": 3.6
     },
     "upstream_growth": {
-      "overall": 28.4,
-      "past_week": 2.4
+      "overall": 25.4,
+      "past_week": 8.8
     },
     "network_performance": {
-      "normal": 97.9,
-      "elevated": 2.1,
-      "substantially_elevated": 0.1,
+      "normal": 98.4,
+      "elevated": 1.5,
+      "substantially_elevated": 0,
       "severely_elevated": 0
     },
     "id": "SC",
@@ -1373,16 +1321,16 @@ var data_states_metrics = {
   },
   "SD": {
     "downstream_growth": {
-      "overall": 15.2,
-      "past_week": -0.2
+      "overall": 12.8,
+      "past_week": -2.5
     },
     "upstream_growth": {
-      "overall": 24.4,
-      "past_week": 1.1
+      "overall": 3.4,
+      "past_week": 5.9
     },
     "network_performance": {
-      "normal": 98.9,
-      "elevated": 0.8,
+      "normal": 99,
+      "elevated": 0.9,
       "substantially_elevated": 0.2,
       "severely_elevated": 0
     },
@@ -1401,16 +1349,16 @@ var data_states_metrics = {
   },
   "TN": {
     "downstream_growth": {
-      "overall": 14.7,
-      "past_week": -0.1
+      "overall": 14.9,
+      "past_week": -1.2
     },
     "upstream_growth": {
-      "overall": 24.9,
-      "past_week": 0
+      "overall": 25,
+      "past_week": 4.9
     },
     "network_performance": {
-      "normal": 97.5,
-      "elevated": 2.4,
+      "normal": 97.3,
+      "elevated": 2.6,
       "substantially_elevated": 0.1,
       "severely_elevated": 0
     },
@@ -1428,31 +1376,31 @@ var data_states_metrics = {
       "2567": {
         "name": "Mediacom",
         "link": "https://mediacomcable.com/about/news/corona-company-initiatives/"
+      },
+      "3604": {
+        "name": "Vyve",
+        "link": "https://www.vyvebroadband.com/covid-19-updates/"
       }
     }
   },
   "TX": {
     "downstream_growth": {
-      "overall": 19,
-      "past_week": 0.8
+      "overall": 18,
+      "past_week": -1.3
     },
     "upstream_growth": {
-      "overall": 29.7,
-      "past_week": -0.3
+      "overall": 31.1,
+      "past_week": 5.5
     },
     "network_performance": {
-      "normal": 96.3,
-      "elevated": 3.4,
-      "substantially_elevated": 0.3,
-      "severely_elevated": 0
+      "normal": 95.9,
+      "elevated": 3.7,
+      "substantially_elevated": 0.4,
+      "severely_elevated": 0.1
     },
     "id": "TX",
     "name": "Texas",
     "providers": {
-      "2556": {
-        "name": "Altice",
-        "link": "https://www.alticeusa.com/together"
-      },
       "2558": {
         "name": "Comcast",
         "link": "https://corporate.comcast.com/covid-19/network"
@@ -1460,21 +1408,25 @@ var data_states_metrics = {
       "2560": {
         "name": "Charter",
         "link": "https://corporate.charter.com/covid-19-response"
+      },
+      "3604": {
+        "name": "Vyve",
+        "link": "https://www.vyvebroadband.com/covid-19-updates/"
       }
     }
   },
   "UT": {
     "downstream_growth": {
-      "overall": 12.3,
-      "past_week": 0.7
+      "overall": 11.5,
+      "past_week": 0
     },
     "upstream_growth": {
-      "overall": 28.1,
-      "past_week": -4.5
+      "overall": 34.2,
+      "past_week": 2
     },
     "network_performance": {
-      "normal": 96.1,
-      "elevated": 3.9,
+      "normal": 94.7,
+      "elevated": 5.3,
       "substantially_elevated": 0,
       "severely_elevated": 0
     },
@@ -1490,16 +1442,16 @@ var data_states_metrics = {
   "VT": {
     "downstream_growth": {
       "overall": 22.3,
-      "past_week": 0
+      "past_week": -0.4
     },
     "upstream_growth": {
-      "overall": 40.9,
-      "past_week": 0.7
+      "overall": 40,
+      "past_week": 2.8
     },
     "network_performance": {
-      "normal": 99.3,
-      "elevated": 0.7,
-      "substantially_elevated": 0,
+      "normal": 99.4,
+      "elevated": 0.5,
+      "substantially_elevated": 0.1,
       "severely_elevated": 0
     },
     "id": "VT",
@@ -1517,16 +1469,16 @@ var data_states_metrics = {
   },
   "VA": {
     "downstream_growth": {
-      "overall": 14.5,
-      "past_week": 2.2
+      "overall": 12,
+      "past_week": -2
     },
     "upstream_growth": {
-      "overall": 29.9,
-      "past_week": -0.3
+      "overall": 30.3,
+      "past_week": 3
     },
     "network_performance": {
-      "normal": 98.8,
-      "elevated": 1.2,
+      "normal": 98.7,
+      "elevated": 1.3,
       "substantially_elevated": 0,
       "severely_elevated": 0
     },
@@ -1549,16 +1501,16 @@ var data_states_metrics = {
   },
   "WA": {
     "downstream_growth": {
-      "overall": 20.8,
-      "past_week": -1.6
+      "overall": 22.9,
+      "past_week": -1
     },
     "upstream_growth": {
-      "overall": 33.5,
-      "past_week": -0.8
+      "overall": 34.5,
+      "past_week": 3
     },
     "network_performance": {
-      "normal": 93.9,
-      "elevated": 5,
+      "normal": 93.4,
+      "elevated": 5.4,
       "substantially_elevated": 1.1,
       "severely_elevated": 0
     },
@@ -1577,26 +1529,22 @@ var data_states_metrics = {
   },
   "WV": {
     "downstream_growth": {
-      "overall": 10.2,
-      "past_week": 2.8
+      "overall": 5.7,
+      "past_week": -4
     },
     "upstream_growth": {
-      "overall": 22.1,
-      "past_week": 0.9
+      "overall": 22.7,
+      "past_week": 2.6
     },
     "network_performance": {
-      "normal": 97.1,
-      "elevated": 2.5,
-      "substantially_elevated": 0.4,
+      "normal": 98.9,
+      "elevated": 1.1,
+      "substantially_elevated": 0.1,
       "severely_elevated": 0
     },
     "id": "WV",
     "name": "West Virginia",
     "providers": {
-      "2556": {
-        "name": "Altice",
-        "link": "https://www.alticeusa.com/together"
-      },
       "2558": {
         "name": "Comcast",
         "link": "https://corporate.comcast.com/covid-19/network"
@@ -1609,18 +1557,18 @@ var data_states_metrics = {
   },
   "WI": {
     "downstream_growth": {
-      "overall": 15.8,
-      "past_week": 2.7
+      "overall": 12.8,
+      "past_week": -5.3
     },
     "upstream_growth": {
-      "overall": 47.2,
-      "past_week": 5.2
+      "overall": 39.9,
+      "past_week": 4.1
     },
     "network_performance": {
-      "normal": 93.7,
-      "elevated": 5.9,
-      "substantially_elevated": 0.3,
-      "severely_elevated": 0.2
+      "normal": 94.9,
+      "elevated": 4.9,
+      "substantially_elevated": 0.2,
+      "severely_elevated": 0.1
     },
     "id": "WI",
     "name": "Wisconsin",
@@ -1645,18 +1593,18 @@ var data_states_metrics = {
   },
   "WY": {
     "downstream_growth": {
-      "overall": 15.2,
-      "past_week": -0.9
+      "overall": 16.3,
+      "past_week": -0.8
     },
     "upstream_growth": {
-      "overall": 24.3,
-      "past_week": -0.5
+      "overall": 24.9,
+      "past_week": 6.8
     },
     "network_performance": {
-      "normal": 97.4,
-      "elevated": 2.4,
-      "substantially_elevated": 0.2,
-      "severely_elevated": 0.1
+      "normal": 97.6,
+      "elevated": 1.8,
+      "substantially_elevated": 0.6,
+      "severely_elevated": 0
     },
     "id": "WY",
     "name": "Wyoming",
@@ -1664,6 +1612,10 @@ var data_states_metrics = {
       "2560": {
         "name": "Charter",
         "link": "https://corporate.charter.com/covid-19-response"
+      },
+      "3604": {
+        "name": "Vyve",
+        "link": "https://www.vyvebroadband.com/covid-19-updates/"
       }
     }
   }
