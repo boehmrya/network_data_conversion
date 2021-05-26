@@ -1,16 +1,16 @@
 var data_states_metrics = {
     "US": {
         "downstream_growth": {
-            "overall": 31.9,
-            "past_week": 2.6
+            "overall": 28.9,
+            "past_week": 1.9
         },
         "upstream_growth": {
-            "overall": 51.7,
-            "past_week": -0.4
+            "overall": 51.1,
+            "past_week": 0.3
         },
         "network_performance": {
-            "normal": 98.6,
-            "elevated": 1.2,
+            "normal": 98.8,
+            "elevated": 1.1,
             "substantially_elevated": 0.1,
             "severely_elevated": 0
         },
@@ -57,18 +57,18 @@ var data_states_metrics = {
     },
     "AL": {
         "downstream_growth": {
-            "overall": 31.9,
-            "past_week": 3.5
+            "overall": 32.2,
+            "past_week": 5.6
         },
         "upstream_growth": {
-            "overall": 46.6,
-            "past_week": 0.1
+            "overall": 47.9,
+            "past_week": 1.1
         },
         "network_performance": {
-            "normal": 99.1,
-            "elevated": 0.8,
-            "substantially_elevated": 0.1,
-            "severely_elevated": 0
+            "normal": 98,
+            "elevated": 1.7,
+            "substantially_elevated": 0.3,
+            "severely_elevated": 0.1
         },
         "id": "AL",
         "name": "Alabama",
@@ -93,16 +93,16 @@ var data_states_metrics = {
     },
     "AK": {
         "downstream_growth": {
-            "overall": 71.1,
-            "past_week": 14.7
+            "overall": 47.8,
+            "past_week": 5.6
         },
         "upstream_growth": {
-            "overall": 65.9,
-            "past_week": 5.3
+            "overall": 56.7,
+            "past_week": 1
         },
         "network_performance": {
-            "normal": 99.8,
-            "elevated": 0.2,
+            "normal": 100,
+            "elevated": 0,
             "substantially_elevated": 0,
             "severely_elevated": 0
         },
@@ -117,17 +117,17 @@ var data_states_metrics = {
     },
     "AZ": {
         "downstream_growth": {
-            "overall": 35.2,
-            "past_week": 4
+            "overall": 29.6,
+            "past_week": -1.1
         },
         "upstream_growth": {
-            "overall": 53,
-            "past_week": 1.1
+            "overall": 48.9,
+            "past_week": -2.1
         },
         "network_performance": {
-            "normal": 98.4,
-            "elevated": 1.3,
-            "substantially_elevated": 0.3,
+            "normal": 98.9,
+            "elevated": 0.9,
+            "substantially_elevated": 0.2,
             "severely_elevated": 0
         },
         "id": "AZ",
@@ -161,17 +161,17 @@ var data_states_metrics = {
     },
     "AR": {
         "downstream_growth": {
-            "overall": 33.7,
-            "past_week": 3.3
+            "overall": 30.4,
+            "past_week": 3.1
         },
         "upstream_growth": {
-            "overall": 39.9,
-            "past_week": 0.4
+            "overall": 38,
+            "past_week": -0.7
         },
         "network_performance": {
-            "normal": 98.8,
-            "elevated": 1,
-            "substantially_elevated": 0.2,
+            "normal": 99,
+            "elevated": 0.9,
+            "substantially_elevated": 0.1,
             "severely_elevated": 0
         },
         "id": "AR",
@@ -197,18 +197,18 @@ var data_states_metrics = {
     },
     "CA": {
         "downstream_growth": {
-            "overall": 43.4,
-            "past_week": 7.9
+            "overall": 32.5,
+            "past_week": -0.1
         },
         "upstream_growth": {
-            "overall": 63.6,
-            "past_week": -1.8
+            "overall": 60.9,
+            "past_week": -0.8
         },
         "network_performance": {
-            "normal": 96.1,
-            "elevated": 3.6,
-            "substantially_elevated": 0.2,
-            "severely_elevated": 0.1
+            "normal": 97,
+            "elevated": 2.9,
+            "substantially_elevated": 0.1,
+            "severely_elevated": 0
         },
         "id": "CA",
         "name": "California",
@@ -237,16 +237,16 @@ var data_states_metrics = {
     },
     "CO": {
         "downstream_growth": {
-            "overall": 25.7,
-            "past_week": 3.1
+            "overall": 25.4,
+            "past_week": 3.2
         },
         "upstream_growth": {
-            "overall": 44.4,
-            "past_week": -0.9
+            "overall": 40.1,
+            "past_week": -0.5
         },
         "network_performance": {
-            "normal": 96.8,
-            "elevated": 3.1,
+            "normal": 97.6,
+            "elevated": 2.3,
             "substantially_elevated": 0.1,
             "severely_elevated": 0
         },
@@ -265,16 +265,16 @@ var data_states_metrics = {
     },
     "CT": {
         "downstream_growth": {
-            "overall": 36.6,
-            "past_week": 0.2
+            "overall": 33.5,
+            "past_week": 0.5
         },
         "upstream_growth": {
-            "overall": 62.3,
-            "past_week": 2.4
+            "overall": 59.9,
+            "past_week": -0.6
         },
         "network_performance": {
-            "normal": 98.9,
-            "elevated": 1,
+            "normal": 99.1,
+            "elevated": 0.8,
             "substantially_elevated": 0.1,
             "severely_elevated": 0
         },
@@ -301,16 +301,16 @@ var data_states_metrics = {
     },
     "DE": {
         "downstream_growth": {
-            "overall": 24.4,
-            "past_week": 1.1
+            "overall": 19.8,
+            "past_week": -0.7
         },
         "upstream_growth": {
-            "overall": 47.7,
-            "past_week": -0.9
+            "overall": 42,
+            "past_week": -2.8
         },
         "network_performance": {
-            "normal": 99.5,
-            "elevated": 0.5,
+            "normal": 99.3,
+            "elevated": 0.7,
             "substantially_elevated": 0,
             "severely_elevated": 0
         },
@@ -329,16 +329,16 @@ var data_states_metrics = {
     },
     "DC": {
         "downstream_growth": {
-            "overall": 17.6,
-            "past_week": 0.6
+            "overall": 15.3,
+            "past_week": 0.3
         },
         "upstream_growth": {
-            "overall": 52.9,
-            "past_week": 3.7
+            "overall": 48.7,
+            "past_week": -0.9
         },
         "network_performance": {
-            "normal": 98.7,
-            "elevated": 1.3,
+            "normal": 98.9,
+            "elevated": 1.1,
             "substantially_elevated": 0,
             "severely_elevated": 0
         },
@@ -353,12 +353,12 @@ var data_states_metrics = {
     },
     "FL": {
         "downstream_growth": {
-            "overall": 26.2,
-            "past_week": -1.4
+            "overall": 24,
+            "past_week": 1.6
         },
         "upstream_growth": {
-            "overall": 44.4,
-            "past_week": -0.2
+            "overall": 43.2,
+            "past_week": 0.3
         },
         "network_performance": {
             "normal": 99.1,
@@ -389,16 +389,16 @@ var data_states_metrics = {
     },
     "GA": {
         "downstream_growth": {
-            "overall": 27.9,
-            "past_week": 3
+            "overall": 29.3,
+            "past_week": 3.6
         },
         "upstream_growth": {
-            "overall": 49.7,
-            "past_week": 0.3
+            "overall": 51.1,
+            "past_week": 1.6
         },
         "network_performance": {
-            "normal": 98.9,
-            "elevated": 1,
+            "normal": 98.6,
+            "elevated": 1.3,
             "substantially_elevated": 0.1,
             "severely_elevated": 0
         },
@@ -425,17 +425,17 @@ var data_states_metrics = {
     },
     "HI": {
         "downstream_growth": {
-            "overall": 62.2,
-            "past_week": 16.7
+            "overall": 37.4,
+            "past_week": 1.4
         },
         "upstream_growth": {
-            "overall": 59,
-            "past_week": -1.1
+            "overall": 59.8,
+            "past_week": 1
         },
         "network_performance": {
-            "normal": 97.7,
-            "elevated": 2.2,
-            "substantially_elevated": 0.1,
+            "normal": 98.1,
+            "elevated": 1.9,
+            "substantially_elevated": 0,
             "severely_elevated": 0
         },
         "id": "HI",
@@ -449,12 +449,12 @@ var data_states_metrics = {
     },
     "ID": {
         "downstream_growth": {
-            "overall": 4.7,
-            "past_week": 2
+            "overall": 2,
+            "past_week": 0
         },
         "upstream_growth": {
-            "overall": 48.6,
-            "past_week": 0.1
+            "overall": 48.2,
+            "past_week": -0.1
         },
         "network_performance": {
             "normal": 99.8,
@@ -489,12 +489,12 @@ var data_states_metrics = {
     },
     "IL": {
         "downstream_growth": {
-            "overall": 27.3,
-            "past_week": 2.2
+            "overall": 23.4,
+            "past_week": 1.4
         },
         "upstream_growth": {
-            "overall": 48.2,
-            "past_week": -0.3
+            "overall": 46.3,
+            "past_week": 0.1
         },
         "network_performance": {
             "normal": 99.5,
@@ -525,17 +525,17 @@ var data_states_metrics = {
     },
     "IN": {
         "downstream_growth": {
-            "overall": 28.4,
-            "past_week": 2
+            "overall": 26.9,
+            "past_week": 3.6
         },
         "upstream_growth": {
-            "overall": 42.9,
-            "past_week": 0.5
+            "overall": 41.8,
+            "past_week": 1.4
         },
         "network_performance": {
             "normal": 99.4,
-            "elevated": 0.5,
-            "substantially_elevated": 0,
+            "elevated": 0.6,
+            "substantially_elevated": 0.1,
             "severely_elevated": 0
         },
         "id": "IN",
@@ -561,12 +561,12 @@ var data_states_metrics = {
     },
     "IA": {
         "downstream_growth": {
-            "overall": 5.8,
-            "past_week": 3
+            "overall": 0.5,
+            "past_week": 0.5
         },
         "upstream_growth": {
-            "overall": 39.2,
-            "past_week": 0.1
+            "overall": 34.7,
+            "past_week": -1.5
         },
         "network_performance": {
             "normal": 100,
@@ -593,15 +593,15 @@ var data_states_metrics = {
     },
     "KS": {
         "downstream_growth": {
-            "overall": 24.8,
-            "past_week": 3
+            "overall": 22,
+            "past_week": 0.9
         },
         "upstream_growth": {
-            "overall": 45.1,
-            "past_week": 0.7
+            "overall": 42.9,
+            "past_week": -1.4
         },
         "network_performance": {
-            "normal": 99.6,
+            "normal": 99.7,
             "elevated": 0.3,
             "substantially_elevated": 0.1,
             "severely_elevated": 0
@@ -641,16 +641,16 @@ var data_states_metrics = {
     },
     "KY": {
         "downstream_growth": {
-            "overall": 30.2,
-            "past_week": 0.9
+            "overall": 35.5,
+            "past_week": 7.8
         },
         "upstream_growth": {
-            "overall": 44.3,
-            "past_week": 1.4
+            "overall": 47.2,
+            "past_week": 2.5
         },
         "network_performance": {
-            "normal": 99,
-            "elevated": 0.9,
+            "normal": 99.1,
+            "elevated": 0.8,
             "substantially_elevated": 0.1,
             "severely_elevated": 0
         },
@@ -677,12 +677,12 @@ var data_states_metrics = {
     },
     "LA": {
         "downstream_growth": {
-            "overall": 37.6,
-            "past_week": -1.6
+            "overall": 39.3,
+            "past_week": 4
         },
         "upstream_growth": {
-            "overall": 48.2,
-            "past_week": -2.1
+            "overall": 50.3,
+            "past_week": 1.8
         },
         "network_performance": {
             "normal": 98.9,
@@ -717,16 +717,16 @@ var data_states_metrics = {
     },
     "ME": {
         "downstream_growth": {
-            "overall": 34.2,
-            "past_week": 2.3
+            "overall": 35.6,
+            "past_week": 2.5
         },
         "upstream_growth": {
-            "overall": 58.8,
-            "past_week": -2.2
+            "overall": 66,
+            "past_week": 0.6
         },
         "network_performance": {
-            "normal": 99.9,
-            "elevated": 0.1,
+            "normal": 99.8,
+            "elevated": 0.2,
             "substantially_elevated": 0,
             "severely_elevated": 0
         },
@@ -745,16 +745,16 @@ var data_states_metrics = {
     },
     "MD": {
         "downstream_growth": {
-            "overall": 29.6,
-            "past_week": 1.9
+            "overall": 25.3,
+            "past_week": 0.4
         },
         "upstream_growth": {
-            "overall": 49.2,
-            "past_week": -0.6
+            "overall": 46.3,
+            "past_week": 0.5
         },
         "network_performance": {
-            "normal": 99.3,
-            "elevated": 0.7,
+            "normal": 99.2,
+            "elevated": 0.8,
             "substantially_elevated": 0,
             "severely_elevated": 0
         },
@@ -777,17 +777,17 @@ var data_states_metrics = {
     },
     "MA": {
         "downstream_growth": {
-            "overall": 31.8,
-            "past_week": -0.7
+            "overall": 28.6,
+            "past_week": -0.2
         },
         "upstream_growth": {
-            "overall": 52.3,
-            "past_week": -5.5
+            "overall": 54.9,
+            "past_week": -1.4
         },
         "network_performance": {
-            "normal": 99.6,
-            "elevated": 0.4,
-            "substantially_elevated": 0,
+            "normal": 99.5,
+            "elevated": 0.5,
+            "substantially_elevated": 0.1,
             "severely_elevated": 0
         },
         "id": "MA",
@@ -809,17 +809,17 @@ var data_states_metrics = {
     },
     "MI": {
         "downstream_growth": {
-            "overall": 37.3,
-            "past_week": 1.7
+            "overall": 35.1,
+            "past_week": 2.2
         },
         "upstream_growth": {
-            "overall": 55,
-            "past_week": -0.5
+            "overall": 51.7,
+            "past_week": -0.6
         },
         "network_performance": {
             "normal": 99.2,
-            "elevated": 0.7,
-            "substantially_elevated": 0,
+            "elevated": 0.8,
+            "substantially_elevated": 0.1,
             "severely_elevated": 0
         },
         "id": "MI",
@@ -841,15 +841,15 @@ var data_states_metrics = {
     },
     "MN": {
         "downstream_growth": {
-            "overall": 30.7,
-            "past_week": 0.1
+            "overall": 26.4,
+            "past_week": -1.4
         },
         "upstream_growth": {
-            "overall": 55.4,
-            "past_week": -2.6
+            "overall": 53.7,
+            "past_week": -0.6
         },
         "network_performance": {
-            "normal": 99.5,
+            "normal": 99.6,
             "elevated": 0.4,
             "substantially_elevated": 0,
             "severely_elevated": 0
@@ -881,18 +881,18 @@ var data_states_metrics = {
     },
     "MS": {
         "downstream_growth": {
-            "overall": 28,
-            "past_week": 1.2
+            "overall": 27.3,
+            "past_week": 3.3
         },
         "upstream_growth": {
-            "overall": 32.7,
-            "past_week": -2.9
+            "overall": 31.7,
+            "past_week": -2.3
         },
         "network_performance": {
-            "normal": 99.1,
+            "normal": 99,
             "elevated": 0.8,
             "substantially_elevated": 0.1,
-            "severely_elevated": 0
+            "severely_elevated": 0.1
         },
         "id": "MS",
         "name": "Mississippi",
@@ -921,15 +921,15 @@ var data_states_metrics = {
     },
     "MO": {
         "downstream_growth": {
-            "overall": 24.2,
+            "overall": 25.4,
             "past_week": 4.9
         },
         "upstream_growth": {
-            "overall": 50.6,
-            "past_week": 3.2
+            "overall": 49.8,
+            "past_week": 0.4
         },
         "network_performance": {
-            "normal": 99.1,
+            "normal": 99,
             "elevated": 0.9,
             "substantially_elevated": 0.1,
             "severely_elevated": 0
@@ -961,18 +961,18 @@ var data_states_metrics = {
     },
     "MT": {
         "downstream_growth": {
-            "overall": 31.2,
-            "past_week": 0.9
+            "overall": 29.7,
+            "past_week": -1.1
         },
         "upstream_growth": {
-            "overall": 55,
-            "past_week": 0.1
+            "overall": 52.7,
+            "past_week": -0.6
         },
         "network_performance": {
-            "normal": 97.9,
-            "elevated": 1.8,
-            "substantially_elevated": 0.2,
-            "severely_elevated": 0
+            "normal": 97,
+            "elevated": 2.6,
+            "substantially_elevated": 0.3,
+            "severely_elevated": 0.1
         },
         "id": "MT",
         "name": "Montana",
@@ -985,16 +985,16 @@ var data_states_metrics = {
     },
     "NE": {
         "downstream_growth": {
-            "overall": 22.8,
-            "past_week": 3.2
+            "overall": 19.5,
+            "past_week": 3.6
         },
         "upstream_growth": {
-            "overall": 42,
-            "past_week": 2
+            "overall": 39.3,
+            "past_week": 0.3
         },
         "network_performance": {
-            "normal": 99.8,
-            "elevated": 0.2,
+            "normal": 99.9,
+            "elevated": 0.1,
             "substantially_elevated": 0,
             "severely_elevated": 0
         },
@@ -1017,17 +1017,17 @@ var data_states_metrics = {
     },
     "NV": {
         "downstream_growth": {
-            "overall": 33.4,
-            "past_week": 3.6
+            "overall": 27.5,
+            "past_week": -2.4
         },
         "upstream_growth": {
-            "overall": 54.5,
-            "past_week": -0.9
+            "overall": 54.4,
+            "past_week": -0.4
         },
         "network_performance": {
-            "normal": 98.2,
-            "elevated": 1.6,
-            "substantially_elevated": 0.2,
+            "normal": 98.9,
+            "elevated": 0.9,
+            "substantially_elevated": 0.1,
             "severely_elevated": 0.1
         },
         "id": "NV",
@@ -1049,17 +1049,17 @@ var data_states_metrics = {
     },
     "NH": {
         "downstream_growth": {
-            "overall": 35.3,
-            "past_week": 0.4
+            "overall": 30.8,
+            "past_week": -0.1
         },
         "upstream_growth": {
-            "overall": 56.8,
-            "past_week": -2.1
+            "overall": 55.1,
+            "past_week": 1.9
         },
         "network_performance": {
             "normal": 99.7,
             "elevated": 0.2,
-            "substantially_elevated": 0,
+            "substantially_elevated": 0.1,
             "severely_elevated": 0
         },
         "id": "NH",
@@ -1077,15 +1077,15 @@ var data_states_metrics = {
     },
     "NJ": {
         "downstream_growth": {
-            "overall": 21.1,
-            "past_week": -0.6
+            "overall": 16.7,
+            "past_week": 0.1
         },
         "upstream_growth": {
-            "overall": 46.3,
-            "past_week": -1.8
+            "overall": 46.4,
+            "past_week": 1.1
         },
         "network_performance": {
-            "normal": 99.1,
+            "normal": 99.2,
             "elevated": 0.8,
             "substantially_elevated": 0,
             "severely_elevated": 0
@@ -1109,18 +1109,18 @@ var data_states_metrics = {
     },
     "NM": {
         "downstream_growth": {
-            "overall": 43.6,
-            "past_week": 3.5
+            "overall": 37.8,
+            "past_week": 0.6
         },
         "upstream_growth": {
-            "overall": 62.1,
-            "past_week": -0.5
+            "overall": 60.5,
+            "past_week": 0.1
         },
         "network_performance": {
-            "normal": 97.8,
-            "elevated": 1.6,
+            "normal": 98.3,
+            "elevated": 1.1,
             "substantially_elevated": 0.5,
-            "severely_elevated": 0.2
+            "severely_elevated": 0.3
         },
         "id": "NM",
         "name": "New Mexico",
@@ -1145,17 +1145,17 @@ var data_states_metrics = {
     },
     "NY": {
         "downstream_growth": {
-            "overall": 31.8,
-            "past_week": 0.8
+            "overall": 28.3,
+            "past_week": 2
         },
         "upstream_growth": {
-            "overall": 53.9,
-            "past_week": -0.4
+            "overall": 54.9,
+            "past_week": 1.5
         },
         "network_performance": {
-            "normal": 98.3,
-            "elevated": 1.5,
-            "substantially_elevated": 0.2,
+            "normal": 98.7,
+            "elevated": 1.1,
+            "substantially_elevated": 0.1,
             "severely_elevated": 0
         },
         "id": "NY",
@@ -1181,16 +1181,16 @@ var data_states_metrics = {
     },
     "NC": {
         "downstream_growth": {
-            "overall": 36.1,
-            "past_week": 3.6
+            "overall": 40.3,
+            "past_week": 7.1
         },
         "upstream_growth": {
-            "overall": 56.5,
-            "past_week": 1.8
+            "overall": 57.7,
+            "past_week": 1.7
         },
         "network_performance": {
-            "normal": 98.8,
-            "elevated": 1.1,
+            "normal": 98.7,
+            "elevated": 1.2,
             "substantially_elevated": 0.1,
             "severely_elevated": 0
         },
@@ -1221,17 +1221,17 @@ var data_states_metrics = {
     },
     "ND": {
         "downstream_growth": {
-            "overall": 17.5,
-            "past_week": 0.7
+            "overall": 16.2,
+            "past_week": 0.3
         },
         "upstream_growth": {
-            "overall": 10.5,
-            "past_week": -1.1
+            "overall": 9.7,
+            "past_week": 1.2
         },
         "network_performance": {
-            "normal": 99.8,
+            "normal": 99.9,
             "elevated": 0.1,
-            "substantially_elevated": 0.1,
+            "substantially_elevated": 0,
             "severely_elevated": 0
         },
         "id": "ND",
@@ -1249,17 +1249,17 @@ var data_states_metrics = {
     },
     "OH": {
         "downstream_growth": {
-            "overall": 34.9,
-            "past_week": 0.4
+            "overall": 39.3,
+            "past_week": 7.1
         },
         "upstream_growth": {
-            "overall": 55,
-            "past_week": 3.1
+            "overall": 56,
+            "past_week": 3.4
         },
         "network_performance": {
-            "normal": 99,
-            "elevated": 0.9,
-            "substantially_elevated": 0,
+            "normal": 98.9,
+            "elevated": 1,
+            "substantially_elevated": 0.1,
             "severely_elevated": 0
         },
         "id": "OH",
@@ -1289,17 +1289,17 @@ var data_states_metrics = {
     },
     "OK": {
         "downstream_growth": {
-            "overall": 27.2,
-            "past_week": 2.2
+            "overall": 21.5,
+            "past_week": -1.5
         },
         "upstream_growth": {
-            "overall": 39.7,
-            "past_week": -0.4
+            "overall": 39.8,
+            "past_week": -1.3
         },
         "network_performance": {
-            "normal": 99.5,
-            "elevated": 0.4,
-            "substantially_elevated": 0.1,
+            "normal": 99.7,
+            "elevated": 0.2,
+            "substantially_elevated": 0,
             "severely_elevated": 0
         },
         "id": "OK",
@@ -1321,17 +1321,17 @@ var data_states_metrics = {
     },
     "OR": {
         "downstream_growth": {
-            "overall": 31.6,
-            "past_week": 3.8
+            "overall": 29.1,
+            "past_week": -0.2
         },
         "upstream_growth": {
-            "overall": 60.2,
-            "past_week": -1.1
+            "overall": 59.8,
+            "past_week": -0.3
         },
         "network_performance": {
-            "normal": 98.7,
-            "elevated": 1.1,
-            "substantially_elevated": 0.2,
+            "normal": 99.1,
+            "elevated": 0.7,
+            "substantially_elevated": 0.1,
             "severely_elevated": 0
         },
         "id": "OR",
@@ -1349,16 +1349,16 @@ var data_states_metrics = {
     },
     "PA": {
         "downstream_growth": {
-            "overall": 27.9,
-            "past_week": 1.4
+            "overall": 24.3,
+            "past_week": 1.1
         },
         "upstream_growth": {
-            "overall": 47.4,
-            "past_week": -0.9
+            "overall": 44.1,
+            "past_week": 0
         },
         "network_performance": {
-            "normal": 99.3,
-            "elevated": 0.6,
+            "normal": 99.4,
+            "elevated": 0.5,
             "substantially_elevated": 0,
             "severely_elevated": 0
         },
@@ -1377,17 +1377,17 @@ var data_states_metrics = {
     },
     "RI": {
         "downstream_growth": {
-            "overall": 31.7,
-            "past_week": -1.7
+            "overall": 30.8,
+            "past_week": -1.4
         },
         "upstream_growth": {
-            "overall": 45.3,
-            "past_week": -4.4
+            "overall": 50.3,
+            "past_week": -0.5
         },
         "network_performance": {
-            "normal": 99.6,
-            "elevated": 0.3,
-            "substantially_elevated": 0.1,
+            "normal": 99.8,
+            "elevated": 0.2,
+            "substantially_elevated": 0,
             "severely_elevated": 0
         },
         "id": "RI",
@@ -1401,17 +1401,17 @@ var data_states_metrics = {
     },
     "SC": {
         "downstream_growth": {
-            "overall": 36.7,
-            "past_week": 2.5
+            "overall": 41.8,
+            "past_week": 6.6
         },
         "upstream_growth": {
-            "overall": 51.9,
-            "past_week": 0.3
+            "overall": 57.4,
+            "past_week": 3.2
         },
         "network_performance": {
-            "normal": 99.2,
-            "elevated": 0.7,
-            "substantially_elevated": 0,
+            "normal": 98.9,
+            "elevated": 1,
+            "substantially_elevated": 0.1,
             "severely_elevated": 0
         },
         "id": "SC",
@@ -1429,12 +1429,12 @@ var data_states_metrics = {
     },
     "SD": {
         "downstream_growth": {
-            "overall": 13.1,
-            "past_week": -4.5
+            "overall": 12.6,
+            "past_week": 4.7
         },
         "upstream_growth": {
-            "overall": -7.3,
-            "past_week": -2.7
+            "overall": -8.3,
+            "past_week": -4.8
         },
         "network_performance": {
             "normal": 100,
@@ -1457,18 +1457,18 @@ var data_states_metrics = {
     },
     "TN": {
         "downstream_growth": {
-            "overall": 32.5,
-            "past_week": 3.9
+            "overall": 33,
+            "past_week": 3.5
         },
         "upstream_growth": {
-            "overall": 45.8,
-            "past_week": 0.6
+            "overall": 45.4,
+            "past_week": 0.7
         },
         "network_performance": {
-            "normal": 98.8,
-            "elevated": 1,
-            "substantially_elevated": 0.2,
-            "severely_elevated": 0
+            "normal": 98.3,
+            "elevated": 1.4,
+            "substantially_elevated": 0.3,
+            "severely_elevated": 0.1
         },
         "id": "TN",
         "name": "Tennessee",
@@ -1493,16 +1493,16 @@ var data_states_metrics = {
     },
     "TX": {
         "downstream_growth": {
-            "overall": 32.2,
-            "past_week": 3.6
+            "overall": 31.1,
+            "past_week": 2.4
         },
         "upstream_growth": {
-            "overall": 50.4,
-            "past_week": -0.3
+            "overall": 53,
+            "past_week": 0
         },
         "network_performance": {
-            "normal": 98.8,
-            "elevated": 1.1,
+            "normal": 98.9,
+            "elevated": 1,
             "substantially_elevated": 0.1,
             "severely_elevated": 0
         },
@@ -1529,16 +1529,16 @@ var data_states_metrics = {
     },
     "UT": {
         "downstream_growth": {
-            "overall": 26.6,
-            "past_week": 0.3
+            "overall": 24.4,
+            "past_week": 0.1
         },
         "upstream_growth": {
-            "overall": 43.6,
-            "past_week": -0.8
+            "overall": 39,
+            "past_week": -1.8
         },
         "network_performance": {
-            "normal": 99.1,
-            "elevated": 0.9,
+            "normal": 99,
+            "elevated": 1,
             "substantially_elevated": 0,
             "severely_elevated": 0
         },
@@ -1553,12 +1553,12 @@ var data_states_metrics = {
     },
     "VT": {
         "downstream_growth": {
-            "overall": 39.5,
-            "past_week": 4.3
+            "overall": 33.4,
+            "past_week": -0.8
         },
         "upstream_growth": {
-            "overall": 55.3,
-            "past_week": -1.7
+            "overall": 54,
+            "past_week": 0.4
         },
         "network_performance": {
             "normal": 99.8,
@@ -1581,12 +1581,12 @@ var data_states_metrics = {
     },
     "VA": {
         "downstream_growth": {
-            "overall": 28,
-            "past_week": 2.7
+            "overall": 24,
+            "past_week": 0.4
         },
         "upstream_growth": {
-            "overall": 49.2,
-            "past_week": -0.5
+            "overall": 47.6,
+            "past_week": 0.3
         },
         "network_performance": {
             "normal": 99.5,
@@ -1613,18 +1613,18 @@ var data_states_metrics = {
     },
     "WA": {
         "downstream_growth": {
-            "overall": 27.5,
-            "past_week": 5
+            "overall": 23.9,
+            "past_week": 0
         },
         "upstream_growth": {
-            "overall": 59.6,
-            "past_week": 0.2
+            "overall": 59.5,
+            "past_week": 0.6
         },
         "network_performance": {
-            "normal": 97.8,
+            "normal": 98,
             "elevated": 1.5,
-            "substantially_elevated": 0.6,
-            "severely_elevated": 0.1
+            "substantially_elevated": 0.5,
+            "severely_elevated": 0
         },
         "id": "WA",
         "name": "Washington",
@@ -1641,16 +1641,16 @@ var data_states_metrics = {
     },
     "WV": {
         "downstream_growth": {
-            "overall": 38.7,
-            "past_week": 4.3
+            "overall": 33.5,
+            "past_week": 2
         },
         "upstream_growth": {
-            "overall": 40.1,
-            "past_week": 0
+            "overall": 38.3,
+            "past_week": 0.6
         },
         "network_performance": {
-            "normal": 97.8,
-            "elevated": 2.1,
+            "normal": 98.1,
+            "elevated": 1.7,
             "substantially_elevated": 0.2,
             "severely_elevated": 0
         },
@@ -1673,17 +1673,17 @@ var data_states_metrics = {
     },
     "WI": {
         "downstream_growth": {
-            "overall": 26,
-            "past_week": -0.8
+            "overall": 30.3,
+            "past_week": 2.6
         },
         "upstream_growth": {
-            "overall": 53.3,
-            "past_week": -0.1
+            "overall": 56.6,
+            "past_week": 3.1
         },
         "network_performance": {
-            "normal": 98.6,
-            "elevated": 1.3,
-            "substantially_elevated": 0,
+            "normal": 98.7,
+            "elevated": 1.2,
+            "substantially_elevated": 0.1,
             "severely_elevated": 0
         },
         "id": "WI",
@@ -1709,18 +1709,18 @@ var data_states_metrics = {
     },
     "WY": {
         "downstream_growth": {
-            "overall": 25.6,
-            "past_week": 1.5
+            "overall": 26,
+            "past_week": 5
         },
         "upstream_growth": {
-            "overall": 49,
-            "past_week": 4
+            "overall": 46,
+            "past_week": 2.3
         },
         "network_performance": {
-            "normal": 98.1,
-            "elevated": 1.5,
-            "substantially_elevated": 0.2,
-            "severely_elevated": 0.2
+            "normal": 97.3,
+            "elevated": 2.3,
+            "substantially_elevated": 0.3,
+            "severely_elevated": 0.1
         },
         "id": "WY",
         "name": "Wyoming",
